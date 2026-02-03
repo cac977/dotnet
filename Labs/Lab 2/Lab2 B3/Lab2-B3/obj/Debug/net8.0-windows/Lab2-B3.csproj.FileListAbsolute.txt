@@ -1,0 +1,16 @@
+D:\Labs\Lab2-B3\Lab2-B3\obj\Debug\net8.0-windows\Lab2_B3.FlightReservation.resources
+D:\Labs\Lab2-B3\Lab2-B3\obj\Debug\net8.0-windows\Lab2-B3.csproj.GenerateResource.cache
+D:\Labs\Lab2-B3\Lab2-B3\obj\Debug\net8.0-windows\Lab2-B3.GeneratedMSBuildEditorConfig.editorconfig
+D:\Labs\Lab2-B3\Lab2-B3\obj\Debug\net8.0-windows\Lab2-B3.AssemblyInfoInputs.cache
+D:\Labs\Lab2-B3\Lab2-B3\obj\Debug\net8.0-windows\Lab2-B3.AssemblyInfo.cs
+D:\Labs\Lab2-B3\Lab2-B3\obj\Debug\net8.0-windows\Lab2-B3.csproj.CoreCompileInputs.cache
+D:\Labs\Lab2-B3\Lab2-B3\bin\Debug\net8.0-windows\Lab2-B3.exe
+D:\Labs\Lab2-B3\Lab2-B3\bin\Debug\net8.0-windows\Lab2-B3.deps.json
+D:\Labs\Lab2-B3\Lab2-B3\bin\Debug\net8.0-windows\Lab2-B3.runtimeconfig.json
+D:\Labs\Lab2-B3\Lab2-B3\bin\Debug\net8.0-windows\Lab2-B3.dll
+D:\Labs\Lab2-B3\Lab2-B3\bin\Debug\net8.0-windows\Lab2-B3.pdb
+D:\Labs\Lab2-B3\Lab2-B3\obj\Debug\net8.0-windows\Lab2-B3.dll
+D:\Labs\Lab2-B3\Lab2-B3\obj\Debug\net8.0-windows\refint\Lab2-B3.dll
+D:\Labs\Lab2-B3\Lab2-B3\obj\Debug\net8.0-windows\Lab2-B3.pdb
+D:\Labs\Lab2-B3\Lab2-B3\obj\Debug\net8.0-windows\Lab2-B3.genruntimeconfig.cache
+D:\Labs\Lab2-B3\Lab2-B3\obj\Debug\net8.0-windows\ref\Lab2-B3.dll
