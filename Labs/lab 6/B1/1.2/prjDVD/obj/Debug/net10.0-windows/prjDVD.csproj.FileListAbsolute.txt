@@ -1,0 +1,48 @@
+C:\Users\Windows 10\source\repos\prjDVD\prjDVD\bin\Debug\net10.0-windows\prjDVD.exe
+C:\Users\Windows 10\source\repos\prjDVD\prjDVD\bin\Debug\net10.0-windows\prjDVD.deps.json
+C:\Users\Windows 10\source\repos\prjDVD\prjDVD\bin\Debug\net10.0-windows\prjDVD.runtimeconfig.json
+C:\Users\Windows 10\source\repos\prjDVD\prjDVD\bin\Debug\net10.0-windows\prjDVD.dll
+C:\Users\Windows 10\source\repos\prjDVD\prjDVD\bin\Debug\net10.0-windows\prjDVD.pdb
+C:\Users\Windows 10\source\repos\prjDVD\prjDVD\bin\Debug\net10.0-windows\System.Data.SqlClient.dll
+C:\Users\Windows 10\source\repos\prjDVD\prjDVD\bin\Debug\net10.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\Windows 10\source\repos\prjDVD\prjDVD\bin\Debug\net10.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\Windows 10\source\repos\prjDVD\prjDVD\bin\Debug\net10.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\Windows 10\source\repos\prjDVD\prjDVD\bin\Debug\net10.0-windows\runtimes\unix\lib\net8.0\System.Data.SqlClient.dll
+C:\Users\Windows 10\source\repos\prjDVD\prjDVD\bin\Debug\net10.0-windows\runtimes\win\lib\net8.0\System.Data.SqlClient.dll
+C:\Users\Windows 10\source\repos\prjDVD\prjDVD\obj\Debug\net10.0-windows\prjDVD.csproj.AssemblyReference.cache
+C:\Users\Windows 10\source\repos\prjDVD\prjDVD\obj\Debug\net10.0-windows\prjDVD.frmDVDCatalog.resources
+C:\Users\Windows 10\source\repos\prjDVD\prjDVD\obj\Debug\net10.0-windows\prjDVD.csproj.GenerateResource.cache
+C:\Users\Windows 10\source\repos\prjDVD\prjDVD\obj\Debug\net10.0-windows\prjDVD.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Windows 10\source\repos\prjDVD\prjDVD\obj\Debug\net10.0-windows\prjDVD.AssemblyInfoInputs.cache
+C:\Users\Windows 10\source\repos\prjDVD\prjDVD\obj\Debug\net10.0-windows\prjDVD.AssemblyInfo.cs
+C:\Users\Windows 10\source\repos\prjDVD\prjDVD\obj\Debug\net10.0-windows\prjDVD.csproj.CoreCompileInputs.cache
+C:\Users\Windows 10\source\repos\prjDVD\prjDVD\obj\Debug\net10.0-windows\prjDVD.csproj.Up2Date
+C:\Users\Windows 10\source\repos\prjDVD\prjDVD\obj\Debug\net10.0-windows\prjDVD.dll
+C:\Users\Windows 10\source\repos\prjDVD\prjDVD\obj\Debug\net10.0-windows\refint\prjDVD.dll
+C:\Users\Windows 10\source\repos\prjDVD\prjDVD\obj\Debug\net10.0-windows\prjDVD.pdb
+C:\Users\Windows 10\source\repos\prjDVD\prjDVD\obj\Debug\net10.0-windows\prjDVD.genruntimeconfig.cache
+C:\Users\Windows 10\source\repos\prjDVD\prjDVD\obj\Debug\net10.0-windows\ref\prjDVD.dll
+C:\Users\User\Downloads\prjDVD\prjDVD\bin\Debug\net10.0-windows\prjDVD.exe
+C:\Users\User\Downloads\prjDVD\prjDVD\bin\Debug\net10.0-windows\prjDVD.deps.json
+C:\Users\User\Downloads\prjDVD\prjDVD\bin\Debug\net10.0-windows\prjDVD.runtimeconfig.json
+C:\Users\User\Downloads\prjDVD\prjDVD\bin\Debug\net10.0-windows\prjDVD.dll
+C:\Users\User\Downloads\prjDVD\prjDVD\bin\Debug\net10.0-windows\prjDVD.pdb
+C:\Users\User\Downloads\prjDVD\prjDVD\bin\Debug\net10.0-windows\System.Data.SqlClient.dll
+C:\Users\User\Downloads\prjDVD\prjDVD\bin\Debug\net10.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\User\Downloads\prjDVD\prjDVD\bin\Debug\net10.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\User\Downloads\prjDVD\prjDVD\bin\Debug\net10.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\User\Downloads\prjDVD\prjDVD\bin\Debug\net10.0-windows\runtimes\unix\lib\net8.0\System.Data.SqlClient.dll
+C:\Users\User\Downloads\prjDVD\prjDVD\bin\Debug\net10.0-windows\runtimes\win\lib\net8.0\System.Data.SqlClient.dll
+C:\Users\User\Downloads\prjDVD\prjDVD\obj\Debug\net10.0-windows\prjDVD.csproj.AssemblyReference.cache
+C:\Users\User\Downloads\prjDVD\prjDVD\obj\Debug\net10.0-windows\prjDVD.frmDVDCatalog.resources
+C:\Users\User\Downloads\prjDVD\prjDVD\obj\Debug\net10.0-windows\prjDVD.csproj.GenerateResource.cache
+C:\Users\User\Downloads\prjDVD\prjDVD\obj\Debug\net10.0-windows\prjDVD.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Downloads\prjDVD\prjDVD\obj\Debug\net10.0-windows\prjDVD.AssemblyInfoInputs.cache
+C:\Users\User\Downloads\prjDVD\prjDVD\obj\Debug\net10.0-windows\prjDVD.AssemblyInfo.cs
+C:\Users\User\Downloads\prjDVD\prjDVD\obj\Debug\net10.0-windows\prjDVD.csproj.CoreCompileInputs.cache
+C:\Users\User\Downloads\prjDVD\prjDVD\obj\Debug\net10.0-windows\prjDVD.csproj.Up2Date
+C:\Users\User\Downloads\prjDVD\prjDVD\obj\Debug\net10.0-windows\prjDVD.dll
+C:\Users\User\Downloads\prjDVD\prjDVD\obj\Debug\net10.0-windows\refint\prjDVD.dll
+C:\Users\User\Downloads\prjDVD\prjDVD\obj\Debug\net10.0-windows\prjDVD.pdb
+C:\Users\User\Downloads\prjDVD\prjDVD\obj\Debug\net10.0-windows\prjDVD.genruntimeconfig.cache
+C:\Users\User\Downloads\prjDVD\prjDVD\obj\Debug\net10.0-windows\ref\prjDVD.dll
