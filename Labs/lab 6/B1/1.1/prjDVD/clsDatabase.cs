@@ -15,7 +15,7 @@ namespace prjDVD
             try
             {
                 // CHINH LAI CONNECTION STRING
-                conn = new SqlConnection("Server=Nhut\\Nhut; Database=DVDLibrary;uid=mylogin;pwd=mylogin");
+                conn = new SqlConnection("Data Source=.;Initial Catalog=DVDLibrary;Integrated Security=True");
                 conn.Open();
             }
             catch (Exception)

@@ -1,18 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Studying\\.net\\Lab_6_B\u00E0i_2\\",
+  "WorkspaceRootPath": "C:\\Users\\tdhuy\\Documents\\GitHub\\dotnet\\Labs\\lab 6\\B2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{248A3BC3-C0CA-091C-6442-88B90C2EFB36}|Lab_6_B\u00E0i_2\\Lab_6_B\u00E0i_2.csproj|d:\\studying\\.net\\lab_6_b\u00E0i_2\\lab_6_b\u00E0i_2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{248A3BC3-C0CA-091C-6442-88B90C2EFB36}|Lab_6_B\u00E0i_2\\Lab_6_B\u00E0i_2.csproj|c:\\users\\tdhuy\\documents\\github\\dotnet\\labs\\lab 6\\b2\\lab_6_b\u00E0i_2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{248A3BC3-C0CA-091C-6442-88B90C2EFB36}|Lab_6_B\u00E0i_2\\Lab_6_B\u00E0i_2.csproj|solutionrelative:lab_6_b\u00E0i_2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{248A3BC3-C0CA-091C-6442-88B90C2EFB36}|Lab_6_B\u00E0i_2\\Lab_6_B\u00E0i_2.csproj|d:\\studying\\.net\\lab_6_b\u00E0i_2\\lab_6_b\u00E0i_2\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{248A3BC3-C0CA-091C-6442-88B90C2EFB36}|Lab_6_B\u00E0i_2\\Lab_6_B\u00E0i_2.csproj|c:\\users\\tdhuy\\documents\\github\\dotnet\\labs\\lab 6\\b2\\lab_6_b\u00E0i_2\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{248A3BC3-C0CA-091C-6442-88B90C2EFB36}|Lab_6_B\u00E0i_2\\Lab_6_B\u00E0i_2.csproj|solutionrelative:lab_6_b\u00E0i_2\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{248A3BC3-C0CA-091C-6442-88B90C2EFB36}|Lab_6_B\u00E0i_2\\Lab_6_B\u00E0i_2.csproj|d:\\studying\\.net\\lab_6_b\u00E0i_2\\lab_6_b\u00E0i_2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{248A3BC3-C0CA-091C-6442-88B90C2EFB36}|Lab_6_B\u00E0i_2\\Lab_6_B\u00E0i_2.csproj|c:\\users\\tdhuy\\documents\\github\\dotnet\\labs\\lab 6\\b2\\lab_6_b\u00E0i_2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{248A3BC3-C0CA-091C-6442-88B90C2EFB36}|Lab_6_B\u00E0i_2\\Lab_6_B\u00E0i_2.csproj|solutionrelative:lab_6_b\u00E0i_2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{248A3BC3-C0CA-091C-6442-88B90C2EFB36}|Lab_6_B\u00E0i_2\\Lab_6_B\u00E0i_2.csproj|c:\\users\\tdhuy\\documents\\github\\dotnet\\labs\\lab 6\\b2\\lab_6_b\u00E0i_2\\clsdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{248A3BC3-C0CA-091C-6442-88B90C2EFB36}|Lab_6_B\u00E0i_2\\Lab_6_B\u00E0i_2.csproj|solutionrelative:lab_6_b\u00E0i_2\\clsdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -25,44 +29,60 @@
           "SelectedChildIndex": 2,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "D:\\Studying\\.net\\Lab_6_B\u00E0i_2\\Lab_6_B\u00E0i_2\\Form1.cs",
-              "RelativeDocumentMoniker": "Lab_6_B\u00E0i_2\\Form1.cs",
-              "ToolTip": "D:\\Studying\\.net\\Lab_6_B\u00E0i_2\\Lab_6_B\u00E0i_2\\Form1.cs",
-              "RelativeToolTip": "Lab_6_B\u00E0i_2\\Form1.cs",
-              "ViewState": "AgIAAJUAAAAAAAAAAAAewJ4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-02T14:31:43.172Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "D:\\Studying\\.net\\Lab_6_B\u00E0i_2\\Lab_6_B\u00E0i_2\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\tdhuy\\Documents\\GitHub\\dotnet\\Labs\\lab 6\\B2\\Lab_6_B\u00E0i_2\\Form1.cs",
               "RelativeDocumentMoniker": "Lab_6_B\u00E0i_2\\Form1.cs",
-              "ToolTip": "D:\\Studying\\.net\\Lab_6_B\u00E0i_2\\Lab_6_B\u00E0i_2\\Form1.cs [Design]",
+              "ToolTip": "C:\\Users\\tdhuy\\Documents\\GitHub\\dotnet\\Labs\\lab 6\\B2\\Lab_6_B\u00E0i_2\\Form1.cs [Design]",
               "RelativeToolTip": "Lab_6_B\u00E0i_2\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-03T03:12:55.929Z",
+              "WhenOpened": "2026-02-04T16:26:54.271Z",
               "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\tdhuy\\Documents\\GitHub\\dotnet\\Labs\\lab 6\\B2\\Lab_6_B\u00E0i_2\\Form1.cs",
+              "RelativeDocumentMoniker": "Lab_6_B\u00E0i_2\\Form1.cs",
+              "ToolTip": "C:\\Users\\tdhuy\\Documents\\GitHub\\dotnet\\Labs\\lab 6\\B2\\Lab_6_B\u00E0i_2\\Form1.cs",
+              "RelativeToolTip": "Lab_6_B\u00E0i_2\\Form1.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAAACMAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T14:31:43.172Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "clsDatabase.cs",
+              "DocumentMoniker": "C:\\Users\\tdhuy\\Documents\\GitHub\\dotnet\\Labs\\lab 6\\B2\\Lab_6_B\u00E0i_2\\clsDatabase.cs",
+              "RelativeDocumentMoniker": "Lab_6_B\u00E0i_2\\clsDatabase.cs",
+              "ToolTip": "C:\\Users\\tdhuy\\Documents\\GitHub\\dotnet\\Labs\\lab 6\\B2\\Lab_6_B\u00E0i_2\\clsDatabase.cs",
+              "RelativeToolTip": "Lab_6_B\u00E0i_2\\clsDatabase.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAwBEAAAB5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-04T03:22:00.687Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Form1.Designer.cs",
-              "DocumentMoniker": "D:\\Studying\\.net\\Lab_6_B\u00E0i_2\\Lab_6_B\u00E0i_2\\Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\tdhuy\\Documents\\GitHub\\dotnet\\Labs\\lab 6\\B2\\Lab_6_B\u00E0i_2\\Form1.Designer.cs",
               "RelativeDocumentMoniker": "Lab_6_B\u00E0i_2\\Form1.Designer.cs",
-              "ToolTip": "D:\\Studying\\.net\\Lab_6_B\u00E0i_2\\Lab_6_B\u00E0i_2\\Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\tdhuy\\Documents\\GitHub\\dotnet\\Labs\\lab 6\\B2\\Lab_6_B\u00E0i_2\\Form1.Designer.cs",
               "RelativeToolTip": "Lab_6_B\u00E0i_2\\Form1.Designer.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAjwCMAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAPkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-03T03:11:33.338Z",
               "EditorCaption": ""

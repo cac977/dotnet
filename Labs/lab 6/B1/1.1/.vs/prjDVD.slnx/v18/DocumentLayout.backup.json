@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\tdhuy\\Documents\\GitHub\\dotnet\\Labs\\lab 6\\B1\\1.1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3C200440-DE1E-2D68-D5A1-75DA9ACA366F}|prjDVD\\prjDVD.csproj|c:\\users\\tdhuy\\documents\\github\\dotnet\\labs\\lab 6\\b1\\1.1\\prjdvd\\clsdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C200440-DE1E-2D68-D5A1-75DA9ACA366F}|prjDVD\\prjDVD.csproj|solutionrelative:prjdvd\\clsdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C200440-DE1E-2D68-D5A1-75DA9ACA366F}|prjDVD\\prjDVD.csproj|c:\\users\\tdhuy\\documents\\github\\dotnet\\labs\\lab 6\\b1\\1.1\\prjdvd\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C200440-DE1E-2D68-D5A1-75DA9ACA366F}|prjDVD\\prjDVD.csproj|solutionrelative:prjdvd\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C200440-DE1E-2D68-D5A1-75DA9ACA366F}|prjDVD\\prjDVD.csproj|C:\\Users\\tdhuy\\Documents\\GitHub\\dotnet\\Labs\\lab 6\\B1\\1.1\\prjdvd\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3C200440-DE1E-2D68-D5A1-75DA9ACA366F}|prjDVD\\prjDVD.csproj|solutionrelative:prjdvd\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C200440-DE1E-2D68-D5A1-75DA9ACA366F}|prjDVD\\prjDVD.csproj|c:\\users\\tdhuy\\documents\\github\\dotnet\\labs\\lab 6\\b1\\1.1\\prjdvd\\prjdvd.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{3C200440-DE1E-2D68-D5A1-75DA9ACA366F}|prjDVD\\prjDVD.csproj|solutionrelative:prjdvd\\prjdvd.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "prjDVD.csproj",
+              "DocumentMoniker": "C:\\Users\\tdhuy\\Documents\\GitHub\\dotnet\\Labs\\lab 6\\B1\\1.1\\prjDVD\\prjDVD.csproj",
+              "RelativeDocumentMoniker": "prjDVD\\prjDVD.csproj",
+              "ToolTip": "C:\\Users\\tdhuy\\Documents\\GitHub\\dotnet\\Labs\\lab 6\\B1\\1.1\\prjDVD\\prjDVD.csproj",
+              "RelativeToolTip": "prjDVD\\prjDVD.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-02-04T03:28:26.408Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\tdhuy\\Documents\\GitHub\\dotnet\\Labs\\lab 6\\B1\\1.1\\prjDVD\\Program.cs",
+              "RelativeDocumentMoniker": "prjDVD\\Program.cs",
+              "ToolTip": "C:\\Users\\tdhuy\\Documents\\GitHub\\dotnet\\Labs\\lab 6\\B1\\1.1\\prjDVD\\Program.cs",
+              "RelativeToolTip": "prjDVD\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-04T03:28:20.53Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "clsDatabase.cs",
+              "DocumentMoniker": "C:\\Users\\tdhuy\\Documents\\GitHub\\dotnet\\Labs\\lab 6\\B1\\1.1\\prjDVD\\clsDatabase.cs",
+              "RelativeDocumentMoniker": "prjDVD\\clsDatabase.cs",
+              "ToolTip": "C:\\Users\\tdhuy\\Documents\\GitHub\\dotnet\\Labs\\lab 6\\B1\\1.1\\prjDVD\\clsDatabase.cs",
+              "RelativeToolTip": "prjDVD\\clsDatabase.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAABmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-04T03:18:37.344Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\tdhuy\\Documents\\GitHub\\dotnet\\Labs\\lab 6\\B1\\1.1\\prjDVD\\Form1.cs",
+              "RelativeDocumentMoniker": "prjDVD\\Form1.cs",
+              "ToolTip": "C:\\Users\\tdhuy\\Documents\\GitHub\\dotnet\\Labs\\lab 6\\B1\\1.1\\prjDVD\\Form1.cs [Design]",
+              "RelativeToolTip": "prjDVD\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-04T03:18:30.538Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

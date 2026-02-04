@@ -1,9 +1,10 @@
-﻿
+﻿-- 0. Kiểm tra phiên bản SQL Server hiện tại
 SELECT @@VERSION;
+-- 1. Tạo CSDL QLCB
+CREATE DATABASE QLCB;
 -- 2. Chọn sử dụng CSDL vừa tạo
 USE QLCB;
 GO
-
 -- 3. Tạo bảng ChucVu trước (Bảng cha)
 -- Phải tạo bảng này trước để bảng CanBo có chỗ tham chiếu tới
 CREATE TABLE ChucVu (

@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\source\\repos\\ThanhToanApp\\ThanhToanApp.csproj": {}
+    "C:\\Users\\tdhuy\\Documents\\GitHub\\dotnet\\Labs\\lab 6\\B3\\ThanhToanApp\\ThanhToanApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\source\\repos\\ThanhToanApp\\ThanhToanApp.csproj": {
+    "C:\\Users\\tdhuy\\Documents\\GitHub\\dotnet\\Labs\\lab 6\\B3\\ThanhToanApp\\ThanhToanApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\source\\repos\\ThanhToanApp\\ThanhToanApp.csproj",
+        "projectUniqueName": "C:\\Users\\tdhuy\\Documents\\GitHub\\dotnet\\Labs\\lab 6\\B3\\ThanhToanApp\\ThanhToanApp.csproj",
         "projectName": "ThanhToanApp",
-        "projectPath": "C:\\Users\\User\\source\\repos\\ThanhToanApp\\ThanhToanApp.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\source\\repos\\ThanhToanApp\\obj\\",
+        "projectPath": "C:\\Users\\tdhuy\\Documents\\GitHub\\dotnet\\Labs\\lab 6\\B3\\ThanhToanApp\\ThanhToanApp.csproj",
+        "packagesPath": "C:\\Users\\tdhuy\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\tdhuy\\Documents\\GitHub\\dotnet\\Labs\\lab 6\\B3\\ThanhToanApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\tdhuy\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -44,7 +44,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "10.0.100"
       },
       "frameworks": {
         "net8.0-windows7.0": {
@@ -74,7 +74,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.310/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

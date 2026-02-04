@@ -1,0 +1,110 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\tdhuy\\Documents\\GitHub\\dotnet\\Labs\\lab 6\\B3\\ThanhToanApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{684A782F-E2F1-4161-908D-832503784024}|ThanhToanApp.csproj|c:\\users\\tdhuy\\documents\\github\\dotnet\\labs\\lab 6\\b3\\thanhtoanapp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{684A782F-E2F1-4161-908D-832503784024}|ThanhToanApp.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{684A782F-E2F1-4161-908D-832503784024}|ThanhToanApp.csproj|C:\\Users\\tdhuy\\Documents\\GitHub\\dotnet\\Labs\\lab 6\\B3\\ThanhToanApp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{684A782F-E2F1-4161-908D-832503784024}|ThanhToanApp.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{684A782F-E2F1-4161-908D-832503784024}|ThanhToanApp.csproj|c:\\users\\tdhuy\\documents\\github\\dotnet\\labs\\lab 6\\b3\\thanhtoanapp\\create_db.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{684A782F-E2F1-4161-908D-832503784024}|ThanhToanApp.csproj|solutionrelative:create_db.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{684A782F-E2F1-4161-908D-832503784024}|ThanhToanApp.csproj|c:\\users\\tdhuy\\documents\\github\\dotnet\\labs\\lab 6\\b3\\thanhtoanapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{684A782F-E2F1-4161-908D-832503784024}|ThanhToanApp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{684A782F-E2F1-4161-908D-832503784024}|ThanhToanApp.csproj|c:\\users\\tdhuy\\documents\\github\\dotnet\\labs\\lab 6\\b3\\thanhtoanapp\\clsdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{684A782F-E2F1-4161-908D-832503784024}|ThanhToanApp.csproj|solutionrelative:clsdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{684A782F-E2F1-4161-908D-832503784024}|ThanhToanApp.csproj|c:\\users\\tdhuy\\documents\\github\\dotnet\\labs\\lab 6\\b3\\thanhtoanapp\\create_db.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
+      "RelativeMoniker": "D:0:0:{684A782F-E2F1-4161-908D-832503784024}|ThanhToanApp.csproj|solutionrelative:create_db.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "create_db.sql ",
+              "DocumentMoniker": "C:\\Users\\tdhuy\\Documents\\GitHub\\dotnet\\Labs\\lab 6\\B3\\ThanhToanApp\\create_db.sql",
+              "RelativeDocumentMoniker": "create_db.sql",
+              "ToolTip": "C:\\Users\\tdhuy\\Documents\\GitHub\\dotnet\\Labs\\lab 6\\B3\\ThanhToanApp\\create_db.sql",
+              "RelativeToolTip": "create_db.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-02-04T03:42:34.711Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "clsData.cs",
+              "DocumentMoniker": "C:\\Users\\tdhuy\\Documents\\GitHub\\dotnet\\Labs\\lab 6\\B3\\ThanhToanApp\\clsData.cs",
+              "RelativeDocumentMoniker": "clsData.cs",
+              "ToolTip": "C:\\Users\\tdhuy\\Documents\\GitHub\\dotnet\\Labs\\lab 6\\B3\\ThanhToanApp\\clsData.cs",
+              "RelativeToolTip": "clsData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-04T03:42:22.456Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\tdhuy\\Documents\\GitHub\\dotnet\\Labs\\lab 6\\B3\\ThanhToanApp\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\tdhuy\\Documents\\GitHub\\dotnet\\Labs\\lab 6\\B3\\ThanhToanApp\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-04T03:42:22.459Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\tdhuy\\Documents\\GitHub\\dotnet\\Labs\\lab 6\\B3\\ThanhToanApp\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\tdhuy\\Documents\\GitHub\\dotnet\\Labs\\lab 6\\B3\\ThanhToanApp\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AgIAAP4AAAAAAAAAAAAewA0BAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-04T03:42:22.461Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\tdhuy\\Documents\\GitHub\\dotnet\\Labs\\lab 6\\B3\\ThanhToanApp\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\tdhuy\\Documents\\GitHub\\dotnet\\Labs\\lab 6\\B3\\ThanhToanApp\\Form1.cs [Design]",
+              "RelativeToolTip": "Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-04T03:42:22.486Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

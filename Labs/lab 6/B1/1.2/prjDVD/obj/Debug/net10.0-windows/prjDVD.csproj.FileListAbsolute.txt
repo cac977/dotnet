@@ -46,3 +46,28 @@ C:\Users\User\Downloads\prjDVD\prjDVD\obj\Debug\net10.0-windows\refint\prjDVD.dl
 C:\Users\User\Downloads\prjDVD\prjDVD\obj\Debug\net10.0-windows\prjDVD.pdb
 C:\Users\User\Downloads\prjDVD\prjDVD\obj\Debug\net10.0-windows\prjDVD.genruntimeconfig.cache
 C:\Users\User\Downloads\prjDVD\prjDVD\obj\Debug\net10.0-windows\ref\prjDVD.dll
+C:\Users\tdhuy\Documents\GitHub\dotnet\Labs\lab 6\B1\1.2\prjDVD\bin\Debug\net10.0-windows\prjDVD.exe
+C:\Users\tdhuy\Documents\GitHub\dotnet\Labs\lab 6\B1\1.2\prjDVD\bin\Debug\net10.0-windows\prjDVD.deps.json
+C:\Users\tdhuy\Documents\GitHub\dotnet\Labs\lab 6\B1\1.2\prjDVD\bin\Debug\net10.0-windows\prjDVD.runtimeconfig.json
+C:\Users\tdhuy\Documents\GitHub\dotnet\Labs\lab 6\B1\1.2\prjDVD\bin\Debug\net10.0-windows\prjDVD.dll
+C:\Users\tdhuy\Documents\GitHub\dotnet\Labs\lab 6\B1\1.2\prjDVD\bin\Debug\net10.0-windows\prjDVD.pdb
+C:\Users\tdhuy\Documents\GitHub\dotnet\Labs\lab 6\B1\1.2\prjDVD\bin\Debug\net10.0-windows\System.Data.SqlClient.dll
+C:\Users\tdhuy\Documents\GitHub\dotnet\Labs\lab 6\B1\1.2\prjDVD\bin\Debug\net10.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\tdhuy\Documents\GitHub\dotnet\Labs\lab 6\B1\1.2\prjDVD\bin\Debug\net10.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\tdhuy\Documents\GitHub\dotnet\Labs\lab 6\B1\1.2\prjDVD\bin\Debug\net10.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\tdhuy\Documents\GitHub\dotnet\Labs\lab 6\B1\1.2\prjDVD\bin\Debug\net10.0-windows\runtimes\unix\lib\net8.0\System.Data.SqlClient.dll
+C:\Users\tdhuy\Documents\GitHub\dotnet\Labs\lab 6\B1\1.2\prjDVD\bin\Debug\net10.0-windows\runtimes\win\lib\net8.0\System.Data.SqlClient.dll
+C:\Users\tdhuy\Documents\GitHub\dotnet\Labs\lab 6\B1\1.2\prjDVD\obj\Debug\net10.0-windows\prjDVD.csproj.AssemblyReference.cache
+C:\Users\tdhuy\Documents\GitHub\dotnet\Labs\lab 6\B1\1.2\prjDVD\obj\Debug\net10.0-windows\prjDVD.frmDVDCatalog.resources
+C:\Users\tdhuy\Documents\GitHub\dotnet\Labs\lab 6\B1\1.2\prjDVD\obj\Debug\net10.0-windows\prjDVD.csproj.GenerateResource.cache
+C:\Users\tdhuy\Documents\GitHub\dotnet\Labs\lab 6\B1\1.2\prjDVD\obj\Debug\net10.0-windows\prjDVD.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tdhuy\Documents\GitHub\dotnet\Labs\lab 6\B1\1.2\prjDVD\obj\Debug\net10.0-windows\prjDVD.AssemblyInfoInputs.cache
+C:\Users\tdhuy\Documents\GitHub\dotnet\Labs\lab 6\B1\1.2\prjDVD\obj\Debug\net10.0-windows\prjDVD.AssemblyInfo.cs
+C:\Users\tdhuy\Documents\GitHub\dotnet\Labs\lab 6\B1\1.2\prjDVD\obj\Debug\net10.0-windows\prjDVD.csproj.CoreCompileInputs.cache
+C:\Users\tdhuy\Documents\GitHub\dotnet\Labs\lab 6\B1\1.2\prjDVD\obj\Debug\net10.0-windows\prjDVD.sourcelink.json
+C:\Users\tdhuy\Documents\GitHub\dotnet\Labs\lab 6\B1\1.2\prjDVD\obj\Debug\net10.0-windows\prjDVD.csproj.Up2Date
+C:\Users\tdhuy\Documents\GitHub\dotnet\Labs\lab 6\B1\1.2\prjDVD\obj\Debug\net10.0-windows\prjDVD.dll
+C:\Users\tdhuy\Documents\GitHub\dotnet\Labs\lab 6\B1\1.2\prjDVD\obj\Debug\net10.0-windows\refint\prjDVD.dll
+C:\Users\tdhuy\Documents\GitHub\dotnet\Labs\lab 6\B1\1.2\prjDVD\obj\Debug\net10.0-windows\prjDVD.pdb
+C:\Users\tdhuy\Documents\GitHub\dotnet\Labs\lab 6\B1\1.2\prjDVD\obj\Debug\net10.0-windows\prjDVD.genruntimeconfig.cache
+C:\Users\tdhuy\Documents\GitHub\dotnet\Labs\lab 6\B1\1.2\prjDVD\obj\Debug\net10.0-windows\ref\prjDVD.dll

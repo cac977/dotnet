@@ -119,7 +119,7 @@
             txtMaCB.Margin = new Padding(5, 6, 5, 6);
             txtMaCB.Name = "txtMaCB";
             txtMaCB.ReadOnly = true;
-            txtMaCB.Size = new Size(347, 31);
+            txtMaCB.Size = new Size(273, 31);
             txtMaCB.TabIndex = 6;
             txtMaCB.TabStop = false;
             txtMaCB.Enter += txtMaCB_Enter;
@@ -131,7 +131,7 @@
             txtTenCB.Location = new Point(217, 206);
             txtTenCB.Margin = new Padding(5, 6, 5, 6);
             txtTenCB.Name = "txtTenCB";
-            txtTenCB.Size = new Size(347, 31);
+            txtTenCB.Size = new Size(273, 31);
             txtTenCB.TabIndex = 7;
             // 
             // cbChucVu
@@ -141,7 +141,7 @@
             cbChucVu.Location = new Point(217, 283);
             cbChucVu.Margin = new Padding(5, 6, 5, 6);
             cbChucVu.Name = "cbChucVu";
-            cbChucVu.Size = new Size(347, 33);
+            cbChucVu.Size = new Size(273, 33);
             cbChucVu.TabIndex = 8;
             // 
             // txtSoGioGiang
@@ -151,7 +151,7 @@
             txtSoGioGiang.Location = new Point(217, 360);
             txtSoGioGiang.Margin = new Padding(5, 6, 5, 6);
             txtSoGioGiang.Name = "txtSoGioGiang";
-            txtSoGioGiang.Size = new Size(347, 31);
+            txtSoGioGiang.Size = new Size(273, 31);
             txtSoGioGiang.TabIndex = 9;
             // 
             // txtDonGia
@@ -161,13 +161,13 @@
             txtDonGia.Location = new Point(217, 437);
             txtDonGia.Margin = new Padding(5, 6, 5, 6);
             txtDonGia.Name = "txtDonGia";
-            txtDonGia.Size = new Size(347, 31);
+            txtDonGia.Size = new Size(273, 31);
             txtDonGia.TabIndex = 10;
             // 
             // btnThem
             // 
             btnThem.Anchor = AnchorStyles.Bottom;
-            btnThem.Location = new Point(100, 539);
+            btnThem.Location = new Point(63, 539);
             btnThem.Margin = new Padding(5, 6, 5, 6);
             btnThem.Name = "btnThem";
             btnThem.Size = new Size(125, 58);
@@ -180,7 +180,7 @@
             // 
             btnLuu.Anchor = AnchorStyles.Bottom;
             btnLuu.Enabled = false;
-            btnLuu.Location = new Point(267, 539);
+            btnLuu.Location = new Point(230, 539);
             btnLuu.Margin = new Padding(5, 6, 5, 6);
             btnLuu.Name = "btnLuu";
             btnLuu.Size = new Size(125, 58);
@@ -192,7 +192,7 @@
             // btnDong
             // 
             btnDong.Anchor = AnchorStyles.Bottom;
-            btnDong.Location = new Point(433, 539);
+            btnDong.Location = new Point(396, 539);
             btnDong.Margin = new Padding(5, 6, 5, 6);
             btnDong.Name = "btnDong";
             btnDong.Size = new Size(125, 58);
@@ -205,7 +205,7 @@
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(681, 656);
+            ClientSize = new Size(607, 656);
             Controls.Add(btnDong);
             Controls.Add(btnLuu);
             Controls.Add(btnThem);

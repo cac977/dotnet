@@ -172,23 +172,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Windows 10\\.nuget\\packages\\": {},
+    "C:\\Users\\tdhuy\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Windows 10\\source\\repos\\prjDVD\\prjDVD\\prjDVD.csproj",
+      "projectUniqueName": "C:\\Users\\tdhuy\\Documents\\GitHub\\dotnet\\Labs\\lab 6\\B1\\1.1\\prjDVD\\prjDVD.csproj",
       "projectName": "prjDVD",
-      "projectPath": "C:\\Users\\Windows 10\\source\\repos\\prjDVD\\prjDVD\\prjDVD.csproj",
-      "packagesPath": "C:\\Users\\Windows 10\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Windows 10\\source\\repos\\prjDVD\\prjDVD\\obj\\",
+      "projectPath": "C:\\Users\\tdhuy\\Documents\\GitHub\\dotnet\\Labs\\lab 6\\B1\\1.1\\prjDVD\\prjDVD.csproj",
+      "packagesPath": "C:\\Users\\tdhuy\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\tdhuy\\Documents\\GitHub\\dotnet\\Labs\\lab 6\\B1\\1.1\\prjDVD\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Windows 10\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\tdhuy\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],

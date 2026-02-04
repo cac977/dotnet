@@ -14,7 +14,7 @@ class clsDatabase
             {
                 // CHINH LAI CONNECTION STRING
                 //conn = new SqlConnection("Server=Nhut\\Nhut; Database=DVDLibrary;uid=mylogin;pwd=mylogin");
-                con = new SqlConnection("Server=.;Database=DVDLibrary;uid=mylogin;pwd=mylogin"); 
+                con = new SqlConnection("Data Source=.;Initial Catalog=DVDLibrary;Integrated Security=True");
                 con.Open();
             }
             catch (Exception)
