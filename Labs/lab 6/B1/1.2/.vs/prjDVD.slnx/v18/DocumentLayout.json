@@ -48,7 +48,7 @@
               "RelativeDocumentMoniker": "prjDVD\\Form1.cs",
               "ToolTip": "C:\\Users\\tdhuy\\Documents\\GitHub\\dotnet\\Labs\\lab 6\\B1\\1.2\\prjDVD\\Form1.cs",
               "RelativeToolTip": "prjDVD\\Form1.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAcwDgAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAwFYAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-04T03:41:23.21Z",
               "EditorCaption": ""
@@ -63,7 +63,8 @@
               "RelativeToolTip": "prjDVD\\Form1.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-04T03:41:18.29Z"
+              "WhenOpened": "2026-02-04T03:41:18.29Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -74,7 +75,8 @@
               "ToolTip": "C:\\Users\\tdhuy\\Documents\\GitHub\\dotnet\\Labs\\lab 6\\B1\\1.2\\prjDVD\\Form1.cs [Design]",
               "RelativeToolTip": "prjDVD\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-04T03:40:25.431Z"
+              "WhenOpened": "2026-02-04T03:40:25.431Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
@@ -96,9 +98,10 @@
               "RelativeDocumentMoniker": "prjDVD\\clsDatabase.cs",
               "ToolTip": "C:\\Users\\tdhuy\\Documents\\GitHub\\dotnet\\Labs\\lab 6\\B1\\1.2\\prjDVD\\clsDatabase.cs",
               "RelativeToolTip": "prjDVD\\clsDatabase.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAuwCgAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-04T03:39:10.895Z"
+              "WhenOpened": "2026-02-04T03:39:10.895Z",
+              "EditorCaption": ""
             }
           ]
         }

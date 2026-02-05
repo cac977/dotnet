@@ -51,9 +51,10 @@
             // 
             lblHeading.AutoSize = true;
             lblHeading.Font = new Font("Segoe UI", 24F, FontStyle.Bold);
-            lblHeading.Location = new Point(170, 32);
+            lblHeading.Location = new Point(243, 53);
+            lblHeading.Margin = new Padding(4, 0, 4, 0);
             lblHeading.Name = "lblHeading";
-            lblHeading.Size = new Size(213, 45);
+            lblHeading.Size = new Size(317, 65);
             lblHeading.TabIndex = 0;
             lblHeading.Text = "DVD Catalog";
             lblHeading.Click += label1_Click;
@@ -62,9 +63,10 @@
             // 
             lblDVDCodeNo.AutoSize = true;
             lblDVDCodeNo.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
-            lblDVDCodeNo.Location = new Point(33, 110);
+            lblDVDCodeNo.Location = new Point(47, 183);
+            lblDVDCodeNo.Margin = new Padding(4, 0, 4, 0);
             lblDVDCodeNo.Name = "lblDVDCodeNo";
-            lblDVDCodeNo.Size = new Size(82, 15);
+            lblDVDCodeNo.Size = new Size(124, 25);
             lblDVDCodeNo.TabIndex = 1;
             lblDVDCodeNo.Text = "DVD Number";
             // 
@@ -72,9 +74,10 @@
             // 
             lblTitle.AutoSize = true;
             lblTitle.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
-            lblTitle.Location = new Point(33, 165);
+            lblTitle.Location = new Point(47, 275);
+            lblTitle.Margin = new Padding(4, 0, 4, 0);
             lblTitle.Name = "lblTitle";
-            lblTitle.Size = new Size(59, 15);
+            lblTitle.Size = new Size(89, 25);
             lblTitle.TabIndex = 2;
             lblTitle.Text = "DVD title";
             // 
@@ -82,9 +85,10 @@
             // 
             lblLang.AutoSize = true;
             lblLang.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
-            lblLang.Location = new Point(33, 229);
+            lblLang.Location = new Point(47, 382);
+            lblLang.Margin = new Padding(4, 0, 4, 0);
             lblLang.Name = "lblLang";
-            lblLang.Size = new Size(60, 15);
+            lblLang.Size = new Size(95, 25);
             lblLang.TabIndex = 3;
             lblLang.Text = "Language";
             // 
@@ -92,9 +96,10 @@
             // 
             lblPrice.AutoSize = true;
             lblPrice.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
-            lblPrice.Location = new Point(33, 284);
+            lblPrice.Location = new Point(47, 473);
+            lblPrice.Margin = new Padding(4, 0, 4, 0);
             lblPrice.Name = "lblPrice";
-            lblPrice.Size = new Size(35, 15);
+            lblPrice.Size = new Size(54, 25);
             lblPrice.TabIndex = 4;
             lblPrice.Text = "Price";
             // 
@@ -103,9 +108,11 @@
             grpSubtitles.Controls.Add(radNo);
             grpSubtitles.Controls.Add(radYes);
             grpSubtitles.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
-            grpSubtitles.Location = new Point(163, 350);
+            grpSubtitles.Location = new Point(233, 583);
+            grpSubtitles.Margin = new Padding(4, 5, 4, 5);
             grpSubtitles.Name = "grpSubtitles";
-            grpSubtitles.Size = new Size(192, 72);
+            grpSubtitles.Padding = new Padding(4, 5, 4, 5);
+            grpSubtitles.Size = new Size(274, 120);
             grpSubtitles.TabIndex = 5;
             grpSubtitles.TabStop = false;
             grpSubtitles.Text = "Sub title";
@@ -113,9 +120,10 @@
             // radNo
             // 
             radNo.AutoSize = true;
-            radNo.Location = new Point(124, 34);
+            radNo.Location = new Point(177, 57);
+            radNo.Margin = new Padding(4, 5, 4, 5);
             radNo.Name = "radNo";
-            radNo.Size = new Size(41, 19);
+            radNo.Size = new Size(62, 29);
             radNo.TabIndex = 7;
             radNo.Text = "No";
             radNo.UseVisualStyleBackColor = true;
@@ -125,9 +133,10 @@
             // 
             radYes.AutoSize = true;
             radYes.Checked = true;
-            radYes.Location = new Point(27, 34);
+            radYes.Location = new Point(39, 57);
+            radYes.Margin = new Padding(4, 5, 4, 5);
             radYes.Name = "radYes";
-            radYes.Size = new Size(43, 19);
+            radYes.Size = new Size(64, 29);
             radYes.TabIndex = 6;
             radYes.TabStop = true;
             radYes.Text = "Yes";
@@ -137,11 +146,12 @@
             // updPrice
             // 
             updPrice.Increment = new decimal(new int[] { 5, 0, 0, 0 });
-            updPrice.Location = new Point(162, 282);
+            updPrice.Location = new Point(231, 470);
+            updPrice.Margin = new Padding(4, 5, 4, 5);
             updPrice.Maximum = new decimal(new int[] { 150, 0, 0, 0 });
             updPrice.Minimum = new decimal(new int[] { 5, 0, 0, 0 });
             updPrice.Name = "updPrice";
-            updPrice.Size = new Size(154, 23);
+            updPrice.Size = new Size(220, 31);
             updPrice.TabIndex = 6;
             updPrice.Value = new decimal(new int[] { 5, 0, 0, 0 });
             updPrice.ValueChanged += numericUpDown1_ValueChanged;
@@ -150,18 +160,20 @@
             // 
             cboLang.FormattingEnabled = true;
             cboLang.Items.AddRange(new object[] { "English", "", "Spanish", "", "French", "", "Chinese", "", "Russian" });
-            cboLang.Location = new Point(162, 229);
+            cboLang.Location = new Point(231, 382);
+            cboLang.Margin = new Padding(4, 5, 4, 5);
             cboLang.Name = "cboLang";
-            cboLang.Size = new Size(155, 23);
+            cboLang.Size = new Size(220, 33);
             cboLang.TabIndex = 7;
             cboLang.SelectedIndexChanged += cboLang_SelectedIndexChanged;
             // 
             // btnAdd
             // 
             btnAdd.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
-            btnAdd.Location = new Point(87, 478);
+            btnAdd.Location = new Point(124, 797);
+            btnAdd.Margin = new Padding(4, 5, 4, 5);
             btnAdd.Name = "btnAdd";
-            btnAdd.Size = new Size(75, 32);
+            btnAdd.Size = new Size(107, 53);
             btnAdd.TabIndex = 8;
             btnAdd.Text = "Add new";
             btnAdd.UseVisualStyleBackColor = true;
@@ -170,9 +182,10 @@
             // btnCancel
             // 
             btnCancel.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
-            btnCancel.Location = new Point(372, 478);
+            btnCancel.Location = new Point(531, 797);
+            btnCancel.Margin = new Padding(4, 5, 4, 5);
             btnCancel.Name = "btnCancel";
-            btnCancel.Size = new Size(75, 32);
+            btnCancel.Size = new Size(107, 53);
             btnCancel.TabIndex = 9;
             btnCancel.Text = "Cancel";
             btnCancel.UseVisualStyleBackColor = true;
@@ -181,9 +194,10 @@
             // btnSave
             // 
             btnSave.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
-            btnSave.Location = new Point(233, 478);
+            btnSave.Location = new Point(333, 797);
+            btnSave.Margin = new Padding(4, 5, 4, 5);
             btnSave.Name = "btnSave";
-            btnSave.Size = new Size(75, 32);
+            btnSave.Size = new Size(107, 53);
             btnSave.TabIndex = 10;
             btnSave.Text = "Save";
             btnSave.UseVisualStyleBackColor = true;
@@ -191,24 +205,26 @@
             // 
             // txtNo
             // 
-            txtNo.Location = new Point(162, 110);
+            txtNo.Location = new Point(231, 183);
+            txtNo.Margin = new Padding(4, 5, 4, 5);
             txtNo.Name = "txtNo";
-            txtNo.Size = new Size(155, 23);
+            txtNo.Size = new Size(220, 31);
             txtNo.TabIndex = 11;
             // 
             // txtTitle
             // 
-            txtTitle.Location = new Point(162, 165);
+            txtTitle.Location = new Point(231, 275);
+            txtTitle.Margin = new Padding(4, 5, 4, 5);
             txtTitle.Name = "txtTitle";
-            txtTitle.Size = new Size(302, 23);
+            txtTitle.Size = new Size(430, 31);
             txtTitle.TabIndex = 12;
             txtTitle.TextChanged += textBox2_TextChanged;
             // 
             // frmDVDCatalog
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(532, 560);
+            ClientSize = new Size(760, 892);
             Controls.Add(txtTitle);
             Controls.Add(txtNo);
             Controls.Add(btnSave);
@@ -222,6 +238,7 @@
             Controls.Add(lblTitle);
             Controls.Add(lblDVDCodeNo);
             Controls.Add(lblHeading);
+            Margin = new Padding(4, 5, 4, 5);
             Name = "frmDVDCatalog";
             Text = "DVD Library";
             Load += Form1_Load;

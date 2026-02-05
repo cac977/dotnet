@@ -121,7 +121,6 @@
             txtMaCB.ReadOnly = true;
             txtMaCB.Size = new Size(273, 31);
             txtMaCB.TabIndex = 6;
-            txtMaCB.TabStop = false;
             txtMaCB.Enter += txtMaCB_Enter;
             // 
             // txtTenCB
@@ -137,12 +136,14 @@
             // cbChucVu
             // 
             cbChucVu.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+            cbChucVu.DropDownStyle = ComboBoxStyle.DropDownList;
             cbChucVu.FormattingEnabled = true;
             cbChucVu.Location = new Point(217, 283);
             cbChucVu.Margin = new Padding(5, 6, 5, 6);
             cbChucVu.Name = "cbChucVu";
             cbChucVu.Size = new Size(273, 33);
             cbChucVu.TabIndex = 8;
+            cbChucVu.TabStop = false;
             // 
             // txtSoGioGiang
             // 

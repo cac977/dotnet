@@ -7,7 +7,7 @@ class clsData
 
     public static void OpenConnection()
     {
-        string strCon = @"Server=.;Database=ThanhToan;uid=mylogin;pwd=mylogin;";        
+        string strCon = @"Data Source=.;Initial Catalog=ThanhToan;Integrated Security=True;TrustServerCertificate=True";        
 
         con = new SqlConnection(strCon);
         if (con.State == System.Data.ConnectionState.Closed)
