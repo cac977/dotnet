@@ -139,17 +139,51 @@ INSERT INTO KHACHHANG (ID, TEN_KH, SDT, EMAIL, DIACHI) VALUES
 ('080123456010', N'Đặng Gia Bảo', '0912000010', 'bao@gmail.com', N'Bình Dương');
 
 -- 5. BOOKING (5 giao dịch lịch sử)
-INSERT INTO BOOKING (ID_KH, ID_LICH, SL_KHACH, TONG_TIEN) VALUES
-('079123456789', 1, 2, 7000000),
-('080123456001', 1, 3, 10500000),
-('080123456002', 3, 2, 11000000),
-('080123456003', 6, 4, 30000000),
-('080123456005', 8, 2, 6400000);
+INSERT INTO BOOKING (ID_KH, ID_LICH, NGAY_DAT, SL_KHACH, TONG_TIEN) VALUES
+('079123456789', 1, '2026-03-17', 2, 7000000), -- hôm nay (17/3)
+('080123456001', 1, '2026-03-15', 3, 10500000), -- tuần trước
+('080123456002', 3, '2026-03-05', 2, 11000000), -- test tháng này (tháng 3)
+('080123456003', 6, '2026-01-10', 4, 30000000), -- test năm nay (2026)
+('080123456005', 8, '2025-12-20', 2, 6400000); -- test năm nay (2025)
 GO
 
 -- KIỂM TRA DỮ LIỆU
-SELECT 'Địa điểm' as Tab, COUNT(*) as Total FROM DIADIEM UNION ALL
-SELECT 'Tour', COUNT(*) FROM TOUR UNION ALL
-SELECT 'Lịch khởi hành', COUNT(*) FROM LICHKHOIHANH UNION ALL
-SELECT 'Khách hàng', COUNT(*) FROM KHACHHANG UNION ALL
-SELECT 'Booking', COUNT(*) FROM BOOKING;
+-- SELECT 'Địa điểm' as Tab, COUNT(*) as Total FROM DIADIEM UNION ALL
+-- SELECT 'Tour', COUNT(*) FROM TOUR UNION ALL
+-- SELECT 'Lịch khởi hành', COUNT(*) FROM LICHKHOIHANH UNION ALL
+--SELECT 'Khách hàng', COUNT(*) FROM KHACHHANG UNION ALL
+-- SELECT 'Khách hàng', COUNT(*) FROM KHACHHANG;
+-- SELECT 'Booking', COUNT(*) FROM BOOKING;
+
+-- KIỂM TRA SCRIPT
+-- kiểm tra filter theo ngày hôm nay
+SELECT COUNT(*) AS SoLuong, ISNULL(SUM(TONG_TIEN), 0) AS TongDoanhThu 
+                    FROM BOOKING B 
+                    WHERE B.NGAY_DAT= GETDATE();
+
+-- kiểm tra filter theo tuần này
+SELECT COUNT(*) AS SoLuong, ISNULL(SUM(TONG_TIEN), 0) AS TongDoanhThu 
+                    FROM BOOKING B 
+                    WHERE DATEPART(WEEK, B.NGAY_DAT) = DATEPART(WEEK, GETDATE());
+
+-- kiểm tra filter theo tháng này
+SELECT COUNT(*) AS SoLuong, ISNULL(SUM(TONG_TIEN), 0) AS TongDoanhThu 
+                    FROM BOOKING B 
+                    WHERE DATEPART(MONTH, B.NGAY_DAT) = DATEPART(MONTH, GETDATE()) 
+                        AND DATEPART(YEAR, B.NGAY_DAT) = DATEPART(YEAR, GETDATE());
+
+-- kiểm tra filter theo năm nay
+SELECT COUNT(*) AS SoLuong, ISNULL(SUM(TONG_TIEN), 0) AS TongDoanhThu 
+                    FROM BOOKING B 
+                    WHERE DATEPART(YEAR, B.NGAY_DAT) = DATEPART(YEAR, GETDATE());
+
+-- hiển thị chi tiết tour
+SELECT B.ID, K.TEN_KH, T.TEN_TOUR, B.NGAY_DAT, B.TONG_TIEN 
+FROM BOOKING B
+JOIN KHACHHANG K ON B.ID_KH = K.ID
+JOIN LICHKHOIHANH L ON B.ID_LICH = L.ID
+JOIN TOUR T ON L.ID_TOUR = T.ID;
+
+-- xóa dữ liệu bảng BOOKING để thêm dữ liệu mới
+DELETE FROM BOOKING;
+GO

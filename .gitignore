@@ -1,0 +1,8 @@
+# Visual Studio files
+.vs/
+[Bb]in/
+[Oo]bj/
+*.user
+*.suo
+*.vshost.exe
+*.vshost.exe.manifest
