@@ -1,0 +1,155 @@
+/* ====================================================
+DATABASE: QUAN LY TOUR DU LICH
+OBJECTIVE: Quản lý đặt tour cho nhân viên
+STRUCTURE: DIADIEM -> TOUR -> LICHKHOIHANH -> BOOKING <- KHACHHANG
+====================================================
+*/
+
+USE master
+GO
+
+IF DB_ID('QL_TOUR_DULICH') IS NOT NULL
+BEGIN
+    ALTER DATABASE QL_TOUR_DULICH SET SINGLE_USER WITH ROLLBACK IMMEDIATE
+    DROP DATABASE QL_TOUR_DULICH
+END
+
+CREATE DATABASE QL_TOUR_DULICH
+GO
+
+USE QL_TOUR_DULICH;
+GO
+
+/* 1. TABLE: DIADIEM - Lưu danh mục các tỉnh/thành phố */
+CREATE TABLE DIADIEM
+(
+    ID INT IDENTITY(1,1) PRIMARY KEY,
+    TEN_DD NVARCHAR(100) NOT NULL
+);
+
+/* 2. TABLE: TOUR - Thông tin khung của tour */
+CREATE TABLE TOUR
+(
+    ID INT IDENTITY(1,1) PRIMARY KEY,
+    TEN_TOUR NVARCHAR(150) NOT NULL,
+    ID_DIEMDI INT NOT NULL,
+    ID_DIEMDEN INT NOT NULL,
+    SO_NGAY INT NOT NULL,
+    GIA DECIMAL(12,2) NOT NULL,
+    MOTA NVARCHAR(500),
+
+    CONSTRAINT FK_TOUR_DIEMDI FOREIGN KEY (ID_DIEMDI) REFERENCES DIADIEM(ID),
+    CONSTRAINT FK_TOUR_DIEMDEN FOREIGN KEY (ID_DIEMDEN) REFERENCES DIADIEM(ID)
+);
+
+/* 3. TABLE: LICHKHOIHANH - Các đợt khởi hành cụ thể của từng tour */
+CREATE TABLE LICHKHOIHANH
+(
+    ID INT IDENTITY(1,1) PRIMARY KEY,
+    ID_TOUR INT NOT NULL,
+    NGAY_DI DATE NOT NULL,
+    NGAY_VE DATE NOT NULL,
+    SO_CHO INT NOT NULL,
+    DA_DAT INT DEFAULT 0,
+    TRANGTHAI NVARCHAR(20) DEFAULT 'OPEN', -- 'OPEN' hoặc 'CLOSED'
+
+    CONSTRAINT FK_LICH_TOUR FOREIGN KEY (ID_TOUR) REFERENCES TOUR(ID)
+);
+
+/* 4. TABLE: KHACHHANG - Lưu thông tin khách hàng (ID là CCCD/Passport) */
+CREATE TABLE KHACHHANG
+(
+    ID VARCHAR(20) PRIMARY KEY, -- Nhập thủ công CCCD hoặc Passport
+    TEN_KH NVARCHAR(120) NOT NULL,
+    SDT VARCHAR(20),
+    EMAIL VARCHAR(100),
+    DIACHI NVARCHAR(255),
+    NGAY_TAO DATETIME DEFAULT GETDATE()
+);
+
+/* 5. TABLE: BOOKING - Lưu thông tin đặt chỗ của khách */
+CREATE TABLE BOOKING
+(
+    ID INT IDENTITY(1,1) PRIMARY KEY,
+    ID_KH VARCHAR(20) NOT NULL,
+    ID_LICH INT NOT NULL,
+    NGAY_DAT DATETIME DEFAULT GETDATE(),
+    SL_KHACH INT NOT NULL,
+    TONG_TIEN DECIMAL(12,2),
+    TRANGTHAI NVARCHAR(20) DEFAULT 'CONFIRMED',
+
+    CONSTRAINT FK_BOOKING_KH FOREIGN KEY (ID_KH) REFERENCES KHACHHANG(ID),
+    CONSTRAINT FK_BOOKING_LICH FOREIGN KEY (ID_LICH) REFERENCES LICHKHOIHANH(ID)
+);
+GO
+
+/* ====================================================
+DỮ LIỆU MẪU (DUMMY DATA)
+====================================================
+*/
+
+-- 1. DIADIEM (11 địa điểm)
+INSERT INTO DIADIEM (TEN_DD) VALUES 
+(N'TP Hồ Chí Minh'), (N'Hà Nội'), (N'Đà Nẵng'), (N'Nha Trang'), 
+(N'Phú Quốc'), (N'Đà Lạt'), (N'Cần Thơ'), (N'Sapa'), 
+(N'Huế'), (N'Hạ Long'), (N'Quy Nhơn');
+
+-- 2. TOUR (8 tour tiêu biểu)
+INSERT INTO TOUR (TEN_TOUR, ID_DIEMDI, ID_DIEMDEN, SO_NGAY, GIA, MOTA) VALUES
+(N'Sài Gòn - Đà Nẵng 3N2Đ', 1, 3, 3, 3500000, N'Tham quan Bà Nà Hills'),
+(N'Hà Nội - Phú Quốc 4N3Đ', 2, 5, 4, 5500000, N'Nghỉ dưỡng biển đảo'),
+(N'Sài Gòn - Đà Lạt 3N2Đ', 1, 6, 3, 2800000, N'Thành phố ngàn hoa'),
+(N'Sài Gòn - Sapa 5N4Đ', 1, 8, 5, 7500000, N'Chinh phục đỉnh Fansipan'),
+(N'Hà Nội - Huế 3N2Đ', 2, 9, 3, 3200000, N'Thăm cố đô và lăng tẩm'),
+(N'Đà Nẵng - Quy Nhơn 4N3Đ', 3, 11, 4, 4800000, N'Khám phá Kỳ Co - Eo Gió'),
+(N'Cần Thơ - Hà Nội 4N3Đ', 7, 2, 4, 6200000, N'Hành trình phương Bắc'),
+(N'Sài Gòn - Hạ Long 3N2Đ', 1, 10, 3, 5800000, N'Nghỉ đêm trên du thuyền');
+
+-- 3. LICHKHOIHANH (15 lịch khởi hành với các trạng thái khác nhau)
+INSERT INTO LICHKHOIHANH (ID_TOUR, NGAY_DI, NGAY_VE, SO_CHO, DA_DAT, TRANGTHAI) VALUES
+(1, '2026-04-10', '2026-04-12', 20, 18, 'OPEN'),   -- Còn 2 chỗ
+(1, '2026-05-05', '2026-05-07', 25, 25, 'OPEN'),   -- FULL CHỖ
+(2, '2026-04-15', '2026-04-18', 20, 5,  'OPEN'),   
+(2, '2026-06-01', '2026-06-04', 30, 0,  'OPEN'),
+(3, '2026-04-20', '2026-04-22', 15, 0,  'CLOSED'), -- KHÔNG HIỂN THỊ
+(4, '2026-06-15', '2026-06-19', 15, 10, 'OPEN'),
+(4, '2026-07-20', '2026-07-24', 15, 15, 'OPEN'),   -- FULL CHỖ
+(5, '2026-05-10', '2026-05-12', 30, 28, 'OPEN'),
+(5, '2026-08-15', '2026-08-17', 30, 0,  'OPEN'),
+(6, '2026-09-02', '2026-09-05', 20, 5,  'OPEN'),
+(7, '2026-10-01', '2026-10-04', 25, 0,  'OPEN'),
+(8, '2026-05-20', '2026-05-22', 10, 0,  'OPEN'),
+(1, '2026-09-10', '2026-09-12', 20, 0,  'OPEN'),
+(2, '2026-10-10', '2026-10-13', 30, 0,  'OPEN'),
+(3, '2026-11-01', '2026-11-03', 20, 0,  'OPEN');
+
+-- 4. KHACHHANG (12 khách hàng mẫu)
+INSERT INTO KHACHHANG (ID, TEN_KH, SDT, EMAIL, DIACHI) VALUES
+('079123456789', N'Nguyễn Văn An', '0901111111', 'an@gmail.com', N'Quận 1, HCM'),
+('001987654321', N'Trần Thị Bình', '0902222222', 'binh@gmail.com', N'Hoàn Kiếm, HN'),
+('080123456001', N'Lê Văn Cường', '0912000001', 'cuong@gmail.com', N'Hải Phòng'),
+('080123456002', N'Phạm Thị Dung', '0912000002', 'dung@gmail.com', N'Cần Thơ'),
+('080123456003', N'Hoàng Văn Em', '0912000003', 'em@gmail.com', N'Đà Nẵng'),
+('080123456004', N'Vũ Thị Phượng', '0912000004', 'phuong@gmail.com', N'Vũng Tàu'),
+('080123456005', N'Đỗ Minh Quang', '0912000005', 'quang@gmail.com', N'Đà Lạt'),
+('080123456006', N'Trịnh Hoài Nam', '0912000006', 'nam@gmail.com', N'Hà Nội'),
+('080123456007', N'Bùi Tuyết Mai', '0912000007', 'mai@gmail.com', N'TP HCM'),
+('080123456008', N'Lý Hải Đăng', '0912000008', 'dang@gmail.com', N'Nha Trang'),
+('080123456009', N'Ngô Thanh Vân', '0912000009', 'van@gmail.com', N'Phú Quốc'),
+('080123456010', N'Đặng Gia Bảo', '0912000010', 'bao@gmail.com', N'Bình Dương');
+
+-- 5. BOOKING (5 giao dịch lịch sử)
+INSERT INTO BOOKING (ID_KH, ID_LICH, SL_KHACH, TONG_TIEN) VALUES
+('079123456789', 1, 2, 7000000),
+('080123456001', 1, 3, 10500000),
+('080123456002', 3, 2, 11000000),
+('080123456003', 6, 4, 30000000),
+('080123456005', 8, 2, 6400000);
+GO
+
+-- KIỂM TRA DỮ LIỆU
+SELECT 'Địa điểm' as Tab, COUNT(*) as Total FROM DIADIEM UNION ALL
+SELECT 'Tour', COUNT(*) FROM TOUR UNION ALL
+SELECT 'Lịch khởi hành', COUNT(*) FROM LICHKHOIHANH UNION ALL
+SELECT 'Khách hàng', COUNT(*) FROM KHACHHANG UNION ALL
+SELECT 'Booking', COUNT(*) FROM BOOKING;
