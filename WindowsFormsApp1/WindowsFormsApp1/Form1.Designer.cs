@@ -31,7 +31,10 @@
             this.lblQLTourDuLich = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.btnTourFilter = new System.Windows.Forms.Button();
+            this.thong_ke_button = new System.Windows.Forms.Button();
+            this.performanceCounter1 = new System.Diagnostics.PerformanceCounter();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.performanceCounter1)).BeginInit();
             this.SuspendLayout();
             // 
             // lblQLTourDuLich
@@ -65,17 +68,30 @@
             this.btnTourFilter.UseVisualStyleBackColor = true;
             this.btnTourFilter.Click += new System.EventHandler(this.btnTourFilter_Click);
             // 
+            // thong_ke_button
+            // 
+            this.thong_ke_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.thong_ke_button.Location = new System.Drawing.Point(283, 276);
+            this.thong_ke_button.Name = "thong_ke_button";
+            this.thong_ke_button.Size = new System.Drawing.Size(204, 32);
+            this.thong_ke_button.TabIndex = 4;
+            this.thong_ke_button.Text = "Thong Ke Va Bao Cao";
+            this.thong_ke_button.UseVisualStyleBackColor = true;
+            this.thong_ke_button.Click += new System.EventHandler(this.thong_ke_button_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.thong_ke_button);
             this.Controls.Add(this.btnTourFilter);
             this.Controls.Add(this.panel1);
             this.Name = "Form1";
             this.Text = "Form1";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            //((System.ComponentModel.ISupportInitialize)(this.performanceCounter1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -85,6 +101,8 @@
         private System.Windows.Forms.Label lblQLTourDuLich;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button btnTourFilter;
+        private System.Windows.Forms.Button thong_ke_button;
+        private System.Diagnostics.PerformanceCounter performanceCounter1;
     }
 }
 

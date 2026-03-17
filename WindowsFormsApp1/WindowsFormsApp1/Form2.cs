@@ -183,5 +183,10 @@ namespace WindowsFormsApp1
         private void dateKhoiHanh_ValueChanged(object sender, EventArgs e)
         {
         }
+
+        private void btnDong_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

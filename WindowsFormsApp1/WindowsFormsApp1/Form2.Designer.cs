@@ -185,6 +185,7 @@
             this.btnDong.TabIndex = 15;
             this.btnDong.Text = "Dong";
             this.btnDong.UseVisualStyleBackColor = true;
+            this.btnDong.Click += new System.EventHandler(this.btnDong_Click);
             // 
             // Form2
             // 
