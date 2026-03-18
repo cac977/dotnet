@@ -33,5 +33,25 @@ namespace WindowsFormsApp1
            Form3 form3 = new Form3();
             form3.ShowDialog();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Form4 form4 = new Form4();
+            //direct to form4
+            form4.ShowDialog();
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+
+
+        }
+
+        private void quanLyKhach(object sender, EventArgs e)
+        {
+            //direct to form5
+            Form5 form5 = new Form5();
+            form5.ShowDialog();
+        }
     }
 }

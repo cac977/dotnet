@@ -21,3 +21,16 @@ D:\Coding\dotnet\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.cs
 D:\Coding\dotnet\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
 D:\Coding\dotnet\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
 D:\Coding\dotnet\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form3.resources
+C:\Users\tdhuy\Documents\GitHub\dotnet\QL_TOUR_DL\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\tdhuy\Documents\GitHub\dotnet\QL_TOUR_DL\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\tdhuy\Documents\GitHub\dotnet\QL_TOUR_DL\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\tdhuy\Documents\GitHub\dotnet\QL_TOUR_DL\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.AssemblyReference.cache
+C:\Users\tdhuy\Documents\GitHub\dotnet\QL_TOUR_DL\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+C:\Users\tdhuy\Documents\GitHub\dotnet\QL_TOUR_DL\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form2.resources
+C:\Users\tdhuy\Documents\GitHub\dotnet\QL_TOUR_DL\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form3.resources
+C:\Users\tdhuy\Documents\GitHub\dotnet\QL_TOUR_DL\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\tdhuy\Documents\GitHub\dotnet\QL_TOUR_DL\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+C:\Users\tdhuy\Documents\GitHub\dotnet\QL_TOUR_DL\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\tdhuy\Documents\GitHub\dotnet\QL_TOUR_DL\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\tdhuy\Documents\GitHub\dotnet\QL_TOUR_DL\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\tdhuy\Documents\GitHub\dotnet\QL_TOUR_DL\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form4.resources
