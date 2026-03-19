@@ -139,5 +139,10 @@ namespace WindowsFormsApp1
         {
 
         }
+
+        private void btnThem_Click_1(object sender, EventArgs e)
+        {
+
+        }
     }
 }

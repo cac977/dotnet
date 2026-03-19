@@ -23,6 +23,7 @@
             this.thong_ke_button = new System.Windows.Forms.Button();
             this.quanLyTour = new System.Windows.Forms.Button();
             this.quanlykhach = new System.Windows.Forms.Button();
+            this.datTour = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -96,11 +97,24 @@
             this.quanlykhach.UseVisualStyleBackColor = true;
             this.quanlykhach.Click += new System.EventHandler(this.quanLyKhach);
             // 
+            // datTour
+            // 
+            this.datTour.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.datTour.Location = new System.Drawing.Point(424, 165);
+            this.datTour.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.datTour.Name = "datTour";
+            this.datTour.Size = new System.Drawing.Size(306, 49);
+            this.datTour.TabIndex = 7;
+            this.datTour.Text = "Đặt tour";
+            this.datTour.UseVisualStyleBackColor = true;
+            this.datTour.Click += new System.EventHandler(this.datTour_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1200, 692);
+            this.Controls.Add(this.datTour);
             this.Controls.Add(this.quanlykhach);
             this.Controls.Add(this.quanLyTour);
             this.Controls.Add(this.thong_ke_button);
@@ -124,5 +138,6 @@
         private System.Windows.Forms.Button thong_ke_button;
         private System.Windows.Forms.Button quanLyTour;
         private System.Windows.Forms.Button quanlykhach;
+        private System.Windows.Forms.Button datTour;
     }
 }

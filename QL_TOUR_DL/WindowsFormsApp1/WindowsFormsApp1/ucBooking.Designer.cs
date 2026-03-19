@@ -19,218 +19,246 @@ namespace WindowsFormsApp1
 
         private void InitializeComponent()
         {
-            txtSearchID = new TextBox();
-            txtHoTen = new TextBox();
-            txtSDT = new TextBox();
-            numSoLuong = new NumericUpDown();
-            btnThem = new Button();
-            btnXacNhan = new Button();
-            btnHuy = new Button();
-            lblThongBaoCho = new Label();
-            lblTourInfo = new Label();
-            lblNgayDiInfo = new Label();
-            lblNgayVeInfo = new Label();
-            grpKhachHang = new GroupBox();
-            lblCCCD = new Label();
-            lblName = new Label();
-            lblPhone = new Label();
-            lblQty = new Label();
-            ((System.ComponentModel.ISupportInitialize)numSoLuong).BeginInit();
-            grpKhachHang.SuspendLayout();
-            SuspendLayout();
+            this.txtSearchID = new System.Windows.Forms.TextBox();
+            this.txtHoTen = new System.Windows.Forms.TextBox();
+            this.txtSDT = new System.Windows.Forms.TextBox();
+            this.numSoLuong = new System.Windows.Forms.NumericUpDown();
+            this.btnThem = new System.Windows.Forms.Button();
+            this.btnXacNhan = new System.Windows.Forms.Button();
+            this.btnHuy = new System.Windows.Forms.Button();
+            this.lblThongBaoCho = new System.Windows.Forms.Label();
+            this.lblTourInfo = new System.Windows.Forms.Label();
+            this.lblNgayDiInfo = new System.Windows.Forms.Label();
+            this.lblNgayVeInfo = new System.Windows.Forms.Label();
+            this.grpKhachHang = new System.Windows.Forms.GroupBox();
+            this.lblCCCD = new System.Windows.Forms.Label();
+            this.lblName = new System.Windows.Forms.Label();
+            this.lblPhone = new System.Windows.Forms.Label();
+            this.lblQty = new System.Windows.Forms.Label();
+            ((System.ComponentModel.ISupportInitialize)(this.numSoLuong)).BeginInit();
+            this.grpKhachHang.SuspendLayout();
+            this.SuspendLayout();
             // 
             // txtSearchID
             // 
-            txtSearchID.Location = new Point(140, 40);
-            txtSearchID.Name = "txtSearchID";
-            txtSearchID.Size = new Size(200, 23);
-            txtSearchID.TabIndex = 1;
+            this.txtSearchID.Location = new System.Drawing.Point(180, 74);
+            this.txtSearchID.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtSearchID.Name = "txtSearchID";
+            this.txtSearchID.Size = new System.Drawing.Size(623, 31);
+            this.txtSearchID.TabIndex = 1;
             // 
             // txtHoTen
             // 
-            txtHoTen.Location = new Point(140, 80);
-            txtHoTen.Name = "txtHoTen";
-            txtHoTen.Size = new Size(320, 23);
-            txtHoTen.TabIndex = 4;
+            this.txtHoTen.Location = new System.Drawing.Point(182, 168);
+            this.txtHoTen.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtHoTen.Name = "txtHoTen";
+            this.txtHoTen.Size = new System.Drawing.Size(798, 31);
+            this.txtHoTen.TabIndex = 4;
             // 
             // txtSDT
             // 
-            txtSDT.Location = new Point(140, 120);
-            txtSDT.Name = "txtSDT";
-            txtSDT.Size = new Size(320, 23);
-            txtSDT.TabIndex = 6;
+            this.txtSDT.Location = new System.Drawing.Point(182, 265);
+            this.txtSDT.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtSDT.Name = "txtSDT";
+            this.txtSDT.Size = new System.Drawing.Size(785, 31);
+            this.txtSDT.TabIndex = 6;
             // 
             // numSoLuong
             // 
-            numSoLuong.Font = new Font("Segoe UI", 10F, FontStyle.Bold);
-            numSoLuong.Location = new Point(140, 160);
-            numSoLuong.Minimum = new decimal(new int[] { 1, 0, 0, 0 });
-            numSoLuong.Name = "numSoLuong";
-            numSoLuong.Size = new Size(80, 25);
-            numSoLuong.TabIndex = 9;
-            numSoLuong.Value = new decimal(new int[] { 1, 0, 0, 0 });
+            this.numSoLuong.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
+            this.numSoLuong.Location = new System.Drawing.Point(184, 350);
+            this.numSoLuong.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.numSoLuong.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.numSoLuong.Name = "numSoLuong";
+            this.numSoLuong.Size = new System.Drawing.Size(170, 34);
+            this.numSoLuong.TabIndex = 9;
+            this.numSoLuong.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             // 
             // btnThem
             // 
-            btnThem.BackColor = Color.LightBlue;
-            btnThem.Cursor = Cursors.Hand;
-            btnThem.FlatStyle = FlatStyle.Flat;
-            btnThem.Location = new Point(350, 40);
-            btnThem.Name = "btnThem";
-            btnThem.Size = new Size(110, 23);
-            btnThem.TabIndex = 2;
-            btnThem.Text = "Kiểm tra/Thêm";
-            btnThem.UseVisualStyleBackColor = false;
-            btnThem.Click += btnThem_Click;
+            this.btnThem.BackColor = System.Drawing.Color.LightBlue;
+            this.btnThem.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnThem.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnThem.Location = new System.Drawing.Point(820, 74);
+            this.btnThem.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnThem.Name = "btnThem";
+            this.btnThem.Size = new System.Drawing.Size(160, 31);
+            this.btnThem.TabIndex = 2;
+            this.btnThem.Text = "Kiểm tra/Thêm";
+            this.btnThem.UseVisualStyleBackColor = false;
+            // Đăng ký sự kiện Click cho các nút
+            this.btnThem.Click += new System.EventHandler(this.btnThem_Click);
+            this.btnXacNhan.Click += new System.EventHandler(this.btnXacNhan_Click);
+            this.btnHuy.Click += new System.EventHandler(this.btnHuy_Click);
             // 
             // btnXacNhan
             // 
-            btnXacNhan.BackColor = Color.ForestGreen;
-            btnXacNhan.Cursor = Cursors.Hand;
-            btnXacNhan.FlatStyle = FlatStyle.Flat;
-            btnXacNhan.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
-            btnXacNhan.ForeColor = Color.White;
-            btnXacNhan.Location = new Point(310, 320);
-            btnXacNhan.Name = "btnXacNhan";
-            btnXacNhan.Size = new Size(120, 40);
-            btnXacNhan.TabIndex = 10;
-            btnXacNhan.Text = "Xác nhận";
-            btnXacNhan.UseVisualStyleBackColor = false;
-            btnXacNhan.Click += btnXacNhan_Click;
+            this.btnXacNhan.BackColor = System.Drawing.Color.ForestGreen;
+            this.btnXacNhan.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnXacNhan.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnXacNhan.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
+            this.btnXacNhan.ForeColor = System.Drawing.Color.White;
+            this.btnXacNhan.Location = new System.Drawing.Point(688, 618);
+            this.btnXacNhan.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnXacNhan.Name = "btnXacNhan";
+            this.btnXacNhan.Size = new System.Drawing.Size(154, 53);
+            this.btnXacNhan.TabIndex = 10;
+            this.btnXacNhan.Text = "Xác nhận";
+            this.btnXacNhan.UseVisualStyleBackColor = false;
             // 
             // btnHuy
             // 
-            btnHuy.BackColor = Color.White;
-            btnHuy.Cursor = Cursors.Hand;
-            btnHuy.FlatStyle = FlatStyle.Flat;
-            btnHuy.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
-            btnHuy.Location = new Point(160, 320);
-            btnHuy.Name = "btnHuy";
-            btnHuy.Size = new Size(120, 40);
-            btnHuy.TabIndex = 11;
-            btnHuy.Text = "Hủy bỏ";
-            btnHuy.UseVisualStyleBackColor = false;
-            btnHuy.Click += btnHuy_Click;
+            this.btnHuy.BackColor = System.Drawing.Color.White;
+            this.btnHuy.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnHuy.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnHuy.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
+            this.btnHuy.Location = new System.Drawing.Point(322, 618);
+            this.btnHuy.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnHuy.Name = "btnHuy";
+            this.btnHuy.Size = new System.Drawing.Size(154, 53);
+            this.btnHuy.TabIndex = 11;
+            this.btnHuy.Text = "Hủy bỏ";
+            this.btnHuy.UseVisualStyleBackColor = false;
             // 
             // lblThongBaoCho
             // 
-            lblThongBaoCho.AutoSize = true;
-            lblThongBaoCho.Font = new Font("Segoe UI", 10F, FontStyle.Bold);
-            lblThongBaoCho.ForeColor = Color.DarkRed;
-            lblThongBaoCho.Location = new Point(400, 50);
-            lblThongBaoCho.Name = "lblThongBaoCho";
-            lblThongBaoCho.Size = new Size(118, 19);
-            lblThongBaoCho.TabIndex = 0;
-            lblThongBaoCho.Text = "Số chỗ còn lại: 0";
+            this.lblThongBaoCho.AutoSize = true;
+            this.lblThongBaoCho.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
+            this.lblThongBaoCho.ForeColor = System.Drawing.Color.DarkRed;
+            this.lblThongBaoCho.Location = new System.Drawing.Point(909, 53);
+            this.lblThongBaoCho.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblThongBaoCho.Name = "lblThongBaoCho";
+            this.lblThongBaoCho.Size = new System.Drawing.Size(167, 28);
+            this.lblThongBaoCho.TabIndex = 0;
+            this.lblThongBaoCho.Text = "Số chỗ còn lại: 0";
             // 
             // lblTourInfo
             // 
-            lblTourInfo.AutoSize = true;
-            lblTourInfo.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
-            lblTourInfo.ForeColor = Color.DarkBlue;
-            lblTourInfo.Location = new Point(50, 20);
-            lblTourInfo.Name = "lblTourInfo";
-            lblTourInfo.Size = new Size(65, 21);
-            lblTourInfo.TabIndex = 12;
-            lblTourInfo.Text = "Tour: ...";
+            this.lblTourInfo.AutoSize = true;
+            this.lblTourInfo.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
+            this.lblTourInfo.ForeColor = System.Drawing.Color.DarkBlue;
+            this.lblTourInfo.Location = new System.Drawing.Point(58, 49);
+            this.lblTourInfo.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblTourInfo.Name = "lblTourInfo";
+            this.lblTourInfo.Size = new System.Drawing.Size(102, 32);
+            this.lblTourInfo.TabIndex = 12;
+            this.lblTourInfo.Text = "Tour: ...";
             // 
             // lblNgayDiInfo
             // 
-            lblNgayDiInfo.AutoSize = true;
-            lblNgayDiInfo.Font = new Font("Segoe UI", 10F, FontStyle.Bold);
-            lblNgayDiInfo.ForeColor = Color.DarkGreen;
-            lblNgayDiInfo.Location = new Point(50, 50);
-            lblNgayDiInfo.Name = "lblNgayDiInfo";
-            lblNgayDiInfo.Size = new Size(82, 19);
-            lblNgayDiInfo.TabIndex = 13;
-            lblNgayDiInfo.Text = "Ngày đi: ...";
+            this.lblNgayDiInfo.AutoSize = true;
+            this.lblNgayDiInfo.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
+            this.lblNgayDiInfo.ForeColor = System.Drawing.Color.DarkGreen;
+            this.lblNgayDiInfo.Location = new System.Drawing.Point(443, 53);
+            this.lblNgayDiInfo.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblNgayDiInfo.Name = "lblNgayDiInfo";
+            this.lblNgayDiInfo.Size = new System.Drawing.Size(113, 28);
+            this.lblNgayDiInfo.TabIndex = 13;
+            this.lblNgayDiInfo.Text = "Ngày đi: ...";
             // 
             // lblNgayVeInfo
             // 
-            lblNgayVeInfo.AutoSize = true;
-            lblNgayVeInfo.Font = new Font("Segoe UI", 10F, FontStyle.Bold);
-            lblNgayVeInfo.ForeColor = Color.DarkGreen;
-            lblNgayVeInfo.Location = new Point(220, 50);
-            lblNgayVeInfo.Name = "lblNgayVeInfo";
-            lblNgayVeInfo.Size = new Size(85, 19);
-            lblNgayVeInfo.TabIndex = 14;
-            lblNgayVeInfo.Text = "Ngày về: ...";
+            this.lblNgayVeInfo.AutoSize = true;
+            this.lblNgayVeInfo.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
+            this.lblNgayVeInfo.ForeColor = System.Drawing.Color.DarkGreen;
+            this.lblNgayVeInfo.Location = new System.Drawing.Point(683, 53);
+            this.lblNgayVeInfo.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblNgayVeInfo.Name = "lblNgayVeInfo";
+            this.lblNgayVeInfo.Size = new System.Drawing.Size(116, 28);
+            this.lblNgayVeInfo.TabIndex = 14;
+            this.lblNgayVeInfo.Text = "Ngày về: ...";
             // 
             // grpKhachHang
             // 
-            grpKhachHang.Controls.Add(lblCCCD);
-            grpKhachHang.Controls.Add(txtSearchID);
-            grpKhachHang.Controls.Add(btnThem);
-            grpKhachHang.Controls.Add(lblName);
-            grpKhachHang.Controls.Add(txtHoTen);
-            grpKhachHang.Controls.Add(lblPhone);
-            grpKhachHang.Controls.Add(txtSDT);
-            grpKhachHang.Controls.Add(lblQty);
-            grpKhachHang.Controls.Add(numSoLuong);
-            grpKhachHang.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
-            grpKhachHang.Location = new Point(50, 90);
-            grpKhachHang.Name = "grpKhachHang";
-            grpKhachHang.Size = new Size(490, 210);
-            grpKhachHang.TabIndex = 1;
-            grpKhachHang.TabStop = false;
-            grpKhachHang.Text = "THÔNG TIN KHÁCH HÀNG";
+            this.grpKhachHang.Controls.Add(this.lblCCCD);
+            this.grpKhachHang.Controls.Add(this.txtSearchID);
+            this.grpKhachHang.Controls.Add(this.btnThem);
+            this.grpKhachHang.Controls.Add(this.lblName);
+            this.grpKhachHang.Controls.Add(this.txtHoTen);
+            this.grpKhachHang.Controls.Add(this.lblPhone);
+            this.grpKhachHang.Controls.Add(this.txtSDT);
+            this.grpKhachHang.Controls.Add(this.lblQty);
+            this.grpKhachHang.Controls.Add(this.numSoLuong);
+            this.grpKhachHang.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
+            this.grpKhachHang.Location = new System.Drawing.Point(64, 120);
+            this.grpKhachHang.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.grpKhachHang.Name = "grpKhachHang";
+            this.grpKhachHang.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.grpKhachHang.Size = new System.Drawing.Size(1012, 441);
+            this.grpKhachHang.TabIndex = 1;
+            this.grpKhachHang.TabStop = false;
+            this.grpKhachHang.Text = "THÔNG TIN KHÁCH HÀNG";
             // 
             // lblCCCD
             // 
-            lblCCCD.AutoSize = true;
-            lblCCCD.Location = new Point(25, 43);
-            lblCCCD.Name = "lblCCCD";
-            lblCCCD.Size = new Size(92, 15);
-            lblCCCD.TabIndex = 0;
-            lblCCCD.Text = "CCCD/Passport:";
+            this.lblCCCD.AutoSize = true;
+            this.lblCCCD.Location = new System.Drawing.Point(32, 80);
+            this.lblCCCD.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblCCCD.Name = "lblCCCD";
+            this.lblCCCD.Size = new System.Drawing.Size(143, 25);
+            this.lblCCCD.TabIndex = 0;
+            this.lblCCCD.Text = "CCCD/Passport:";
             // 
             // lblName
             // 
-            lblName.AutoSize = true;
-            lblName.Location = new Point(25, 83);
-            lblName.Name = "lblName";
-            lblName.Size = new Size(84, 15);
-            lblName.TabIndex = 3;
-            lblName.Text = "Họ tên khách:";
+            this.lblName.AutoSize = true;
+            this.lblName.Location = new System.Drawing.Point(34, 168);
+            this.lblName.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblName.Name = "lblName";
+            this.lblName.Size = new System.Drawing.Size(131, 25);
+            this.lblName.TabIndex = 3;
+            this.lblName.Text = "Họ tên khách:";
             // 
             // lblPhone
             // 
-            lblPhone.AutoSize = true;
-            lblPhone.Location = new Point(25, 123);
-            lblPhone.Name = "lblPhone";
-            lblPhone.Size = new Size(83, 15);
-            lblPhone.TabIndex = 5;
-            lblPhone.Text = "Số điện thoại:";
+            this.lblPhone.AutoSize = true;
+            this.lblPhone.Location = new System.Drawing.Point(36, 265);
+            this.lblPhone.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblPhone.Name = "lblPhone";
+            this.lblPhone.Size = new System.Drawing.Size(129, 25);
+            this.lblPhone.TabIndex = 5;
+            this.lblPhone.Text = "Số điện thoại:";
             // 
             // lblQty
             // 
-            lblQty.AutoSize = true;
-            lblQty.Location = new Point(25, 163);
-            lblQty.Name = "lblQty";
-            lblQty.Size = new Size(82, 15);
-            lblQty.TabIndex = 7;
-            lblQty.Text = "Số lượng đặt:";
+            this.lblQty.AutoSize = true;
+            this.lblQty.Location = new System.Drawing.Point(36, 355);
+            this.lblQty.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblQty.Name = "lblQty";
+            this.lblQty.Size = new System.Drawing.Size(126, 25);
+            this.lblQty.TabIndex = 7;
+            this.lblQty.Text = "Số lượng đặt:";
             // 
             // ucBooking
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
-            AutoScaleMode = AutoScaleMode.Font;
-            BackColor = Color.FromArgb(245, 245, 245);
-            Controls.Add(lblNgayVeInfo);
-            Controls.Add(lblNgayDiInfo);
-            Controls.Add(lblTourInfo);
-            Controls.Add(lblThongBaoCho);
-            Controls.Add(grpKhachHang);
-            Controls.Add(btnXacNhan);
-            Controls.Add(btnHuy);
-            Name = "ucBooking";
-            Padding = new Padding(20);
-            Size = new Size(596, 399);
-            ((System.ComponentModel.ISupportInitialize)numSoLuong).EndInit();
-            grpKhachHang.ResumeLayout(false);
-            grpKhachHang.PerformLayout();
-            ResumeLayout(false);
-            PerformLayout();
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(245)))), ((int)(((byte)(245)))));
+            this.Controls.Add(this.lblNgayVeInfo);
+            this.Controls.Add(this.lblNgayDiInfo);
+            this.Controls.Add(this.lblTourInfo);
+            this.Controls.Add(this.lblThongBaoCho);
+            this.Controls.Add(this.grpKhachHang);
+            this.Controls.Add(this.btnXacNhan);
+            this.Controls.Add(this.btnHuy);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Name = "ucBooking";
+            this.Padding = new System.Windows.Forms.Padding(26, 27, 26, 27);
+            this.Size = new System.Drawing.Size(1149, 719);
+            ((System.ComponentModel.ISupportInitialize)(this.numSoLuong)).EndInit();
+            this.grpKhachHang.ResumeLayout(false);
+            this.grpKhachHang.PerformLayout();
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
         }
 
         private TextBox txtSearchID;

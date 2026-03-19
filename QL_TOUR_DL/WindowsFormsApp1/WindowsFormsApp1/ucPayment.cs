@@ -1,5 +1,4 @@
 ﻿using Microsoft.Data.SqlClient;
-using WindowsFormsApp1;
 using System;
 using System.Data;
 using System.Windows.Forms;
@@ -29,14 +28,13 @@ namespace WindowsFormsApp1
 
         private void LoadThongTinXacNhan()
         {
-            // Cập nhật SQL để lấy thêm NGAY_VE
             string sql = @"SELECT t.TEN_TOUR, t.GIA, l.NGAY_DI, l.NGAY_VE 
                           FROM TOUR t JOIN LICHKHOIHANH l ON t.ID = l.ID_TOUR 
                           WHERE l.ID = @LichID";
             SqlParameter[] p = { new SqlParameter("@LichID", _lichId) };
             DataTable dt = DbConnector.GetDataTable(sql, p);
 
-            if (dt.Rows.Count > 0)
+            if (dt != null && dt.Rows.Count > 0)
             {
                 _giaTour = Convert.ToDecimal(dt.Rows[0]["GIA"]);
                 decimal tongTien = _giaTour * _slKhach;
@@ -44,10 +42,9 @@ namespace WindowsFormsApp1
                 lblThongTinKhach.Text = $"Khách hàng: {_customer.Ten} ({_customer.ID})";
                 lblTour.Text = $"Tour: {dt.Rows[0]["TEN_TOUR"]}";
                 lblNgayDi.Text = $"Ngày đi: {Convert.ToDateTime(dt.Rows[0]["NGAY_DI"]):dd/MM/yyyy}";
-
-                // Hiển thị Ngày về
                 lblNgayVe.Text = $"Ngày về: {Convert.ToDateTime(dt.Rows[0]["NGAY_VE"]):dd/MM/yyyy}";
-
+                lblGiaTour.Text = $"Giá tour: {_giaTour:N0} VNĐ";
+                lblSoLuong.Text = $"Số lượng đặt: {_slKhach}";
                 lblTongTien.Text = $"TỔNG TIỀN: {tongTien:N0} VNĐ";
             }
         }
@@ -60,6 +57,7 @@ namespace WindowsFormsApp1
                 SqlTransaction trans = conn.BeginTransaction();
                 try
                 {
+                    // 1. Thêm khách hàng (nếu là khách mới)
                     if (_customer.IsNew)
                     {
                         string sqlKH = "INSERT INTO KHACHHANG (ID, TEN_KH, SDT) VALUES (@ID, @Ten, @SDT)";
@@ -70,22 +68,27 @@ namespace WindowsFormsApp1
                         cmdKH.ExecuteNonQuery();
                     }
 
-                    string sqlBooking = @"INSERT INTO BOOKING (ID_KH, ID_LICH, SL_KHACH, TONG_TIEN) 
-                                         VALUES (@ID_KH, @ID_LICH, @SL, @TongTien)";
+                    // 2. Thêm Booking (Đã thêm NGAY_DAT và TRANGTHAI theo thiết kế DB)
+                    string sqlBooking = @"INSERT INTO BOOKING (ID_KH, ID_LICH, NGAY_DAT, SL_KHACH, TONG_TIEN, TRANGTHAI) 
+                                         VALUES (@ID_KH, @ID_LICH, GETDATE(), @SL, @TongTien, @TrangThai)";
                     SqlCommand cmdBooking = new SqlCommand(sqlBooking, conn, trans);
                     cmdBooking.Parameters.AddWithValue("@ID_KH", _customer.ID);
                     cmdBooking.Parameters.AddWithValue("@ID_LICH", _lichId);
                     cmdBooking.Parameters.AddWithValue("@SL", _slKhach);
                     cmdBooking.Parameters.AddWithValue("@TongTien", _giaTour * _slKhach);
+                    cmdBooking.Parameters.AddWithValue("@TrangThai", "Đã thanh toán"); // Bạn có thể đổi trạng thái tùy ý
                     cmdBooking.ExecuteNonQuery();
 
+                    // 3. Cập nhật số lượng đã đặt của Lịch Khởi Hành
                     string sqlUpdateLich = "UPDATE LICHKHOIHANH SET DA_DAT = DA_DAT + @SL WHERE ID = @ID";
                     SqlCommand cmdUpdate = new SqlCommand(sqlUpdateLich, conn, trans);
                     cmdUpdate.Parameters.AddWithValue("@SL", _slKhach);
                     cmdUpdate.Parameters.AddWithValue("@ID", _lichId);
                     cmdUpdate.ExecuteNonQuery();
 
-                    trans.Commit();
+                    trans.Commit(); // Hoàn tất giao dịch
+
+                    // Xử lý giao diện khi thành công
                     lblThongBaoThanhCong.Visible = true;
                     btnXacNhanThanhToan.Enabled = false;
                     btnHuy.Enabled = false;
@@ -93,14 +96,15 @@ namespace WindowsFormsApp1
                 }
                 catch (Exception ex)
                 {
-                    trans.Rollback();
-                    MessageBox.Show("Lỗi: " + ex.Message);
+                    trans.Rollback(); // Hoàn tác nếu có lỗi
+                    MessageBox.Show("Lỗi khi thanh toán: " + ex.Message, "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
         }
 
         private void btnHuy_Click(object sender, EventArgs e)
         {
+            // Quay về màn hình Booking
             _parent.ShowPage(new ucBooking(_parent, _lichId, 0, _customer, _slKhach));
         }
 
@@ -111,7 +115,7 @@ namespace WindowsFormsApp1
             if (_countdown <= 0)
             {
                 timerRedirect.Stop();
-                _parent.ShowPage(new ucTourList(_parent));
+                _parent.ShowPage(new ucTourList(_parent)); // Quay về danh sách Tour
             }
         }
     }

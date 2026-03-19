@@ -3,72 +3,48 @@
   "WorkspaceRootPath": "C:\\Users\\tdhuy\\Documents\\GitHub\\dotnet\\QL_TOUR_DL\\WindowsFormsApp1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CCABDCAA-1065-4759-BDB6-7DFB7D6126E3}|WindowsFormsApp1\\WindowsFormsApp1.csproj|c:\\users\\tdhuy\\documents\\github\\dotnet\\ql_tour_dl\\windowsformsapp1\\windowsformsapp1\\uctourlist.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CCABDCAA-1065-4759-BDB6-7DFB7D6126E3}|WindowsFormsApp1\\WindowsFormsApp1.csproj|solutionrelative:windowsformsapp1\\uctourlist.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CCABDCAA-1065-4759-BDB6-7DFB7D6126E3}|WindowsFormsApp1\\WindowsFormsApp1.csproj|c:\\users\\tdhuy\\documents\\github\\dotnet\\ql_tour_dl\\windowsformsapp1\\windowsformsapp1\\uctourlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CCABDCAA-1065-4759-BDB6-7DFB7D6126E3}|WindowsFormsApp1\\WindowsFormsApp1.csproj|solutionrelative:windowsformsapp1\\uctourlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CCABDCAA-1065-4759-BDB6-7DFB7D6126E3}|WindowsFormsApp1\\WindowsFormsApp1.csproj|c:\\users\\tdhuy\\documents\\github\\dotnet\\ql_tour_dl\\windowsformsapp1\\windowsformsapp1\\uctourlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{CCABDCAA-1065-4759-BDB6-7DFB7D6126E3}|WindowsFormsApp1\\WindowsFormsApp1.csproj|solutionrelative:windowsformsapp1\\uctourlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CCABDCAA-1065-4759-BDB6-7DFB7D6126E3}|WindowsFormsApp1\\WindowsFormsApp1.csproj|c:\\users\\tdhuy\\documents\\github\\dotnet\\ql_tour_dl\\windowsformsapp1\\windowsformsapp1\\dbconnector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CCABDCAA-1065-4759-BDB6-7DFB7D6126E3}|WindowsFormsApp1\\WindowsFormsApp1.csproj|solutionrelative:windowsformsapp1\\dbconnector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CCABDCAA-1065-4759-BDB6-7DFB7D6126E3}|WindowsFormsApp1\\WindowsFormsApp1.csproj|c:\\users\\tdhuy\\documents\\github\\dotnet\\ql_tour_dl\\windowsformsapp1\\windowsformsapp1\\ucpayment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CCABDCAA-1065-4759-BDB6-7DFB7D6126E3}|WindowsFormsApp1\\WindowsFormsApp1.csproj|solutionrelative:windowsformsapp1\\ucpayment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CCABDCAA-1065-4759-BDB6-7DFB7D6126E3}|WindowsFormsApp1\\WindowsFormsApp1.csproj|C:\\Users\\tdhuy\\Documents\\GitHub\\dotnet\\QL_TOUR_DL\\WindowsFormsApp1\\windowsformsapp1\\ucpayment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CCABDCAA-1065-4759-BDB6-7DFB7D6126E3}|WindowsFormsApp1\\WindowsFormsApp1.csproj|solutionrelative:windowsformsapp1\\ucpayment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CCABDCAA-1065-4759-BDB6-7DFB7D6126E3}|WindowsFormsApp1\\WindowsFormsApp1.csproj|c:\\users\\tdhuy\\documents\\github\\dotnet\\ql_tour_dl\\windowsformsapp1\\windowsformsapp1\\ucpayment.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CCABDCAA-1065-4759-BDB6-7DFB7D6126E3}|WindowsFormsApp1\\WindowsFormsApp1.csproj|solutionrelative:windowsformsapp1\\ucpayment.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CCABDCAA-1065-4759-BDB6-7DFB7D6126E3}|WindowsFormsApp1\\WindowsFormsApp1.csproj|c:\\users\\tdhuy\\documents\\github\\dotnet\\ql_tour_dl\\windowsformsapp1\\windowsformsapp1\\ucbooking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CCABDCAA-1065-4759-BDB6-7DFB7D6126E3}|WindowsFormsApp1\\WindowsFormsApp1.csproj|solutionrelative:windowsformsapp1\\ucbooking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CCABDCAA-1065-4759-BDB6-7DFB7D6126E3}|WindowsFormsApp1\\WindowsFormsApp1.csproj|C:\\Users\\tdhuy\\Documents\\GitHub\\dotnet\\QL_TOUR_DL\\WindowsFormsApp1\\windowsformsapp1\\ucpayment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCABDCAA-1065-4759-BDB6-7DFB7D6126E3}|WindowsFormsApp1\\WindowsFormsApp1.csproj|solutionrelative:windowsformsapp1\\ucpayment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CCABDCAA-1065-4759-BDB6-7DFB7D6126E3}|WindowsFormsApp1\\WindowsFormsApp1.csproj|c:\\users\\tdhuy\\documents\\github\\dotnet\\ql_tour_dl\\windowsformsapp1\\windowsformsapp1\\ucbooking.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CCABDCAA-1065-4759-BDB6-7DFB7D6126E3}|WindowsFormsApp1\\WindowsFormsApp1.csproj|C:\\Users\\tdhuy\\Documents\\GitHub\\dotnet\\QL_TOUR_DL\\WindowsFormsApp1\\windowsformsapp1\\ucbooking.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CCABDCAA-1065-4759-BDB6-7DFB7D6126E3}|WindowsFormsApp1\\WindowsFormsApp1.csproj|solutionrelative:windowsformsapp1\\ucbooking.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CCABDCAA-1065-4759-BDB6-7DFB7D6126E3}|WindowsFormsApp1\\WindowsFormsApp1.csproj|c:\\users\\tdhuy\\documents\\github\\dotnet\\ql_tour_dl\\windowsformsapp1\\windowsformsapp1\\form6.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CCABDCAA-1065-4759-BDB6-7DFB7D6126E3}|WindowsFormsApp1\\WindowsFormsApp1.csproj|C:\\Users\\tdhuy\\Documents\\GitHub\\dotnet\\QL_TOUR_DL\\WindowsFormsApp1\\windowsformsapp1\\ucbooking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCABDCAA-1065-4759-BDB6-7DFB7D6126E3}|WindowsFormsApp1\\WindowsFormsApp1.csproj|solutionrelative:windowsformsapp1\\ucbooking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCABDCAA-1065-4759-BDB6-7DFB7D6126E3}|WindowsFormsApp1\\WindowsFormsApp1.csproj|C:\\Users\\tdhuy\\Documents\\GitHub\\dotnet\\QL_TOUR_DL\\WindowsFormsApp1\\windowsformsapp1\\form6.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CCABDCAA-1065-4759-BDB6-7DFB7D6126E3}|WindowsFormsApp1\\WindowsFormsApp1.csproj|solutionrelative:windowsformsapp1\\form6.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CCABDCAA-1065-4759-BDB6-7DFB7D6126E3}|WindowsFormsApp1\\WindowsFormsApp1.csproj|c:\\users\\tdhuy\\documents\\github\\dotnet\\ql_tour_dl\\windowsformsapp1\\windowsformsapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CCABDCAA-1065-4759-BDB6-7DFB7D6126E3}|WindowsFormsApp1\\WindowsFormsApp1.csproj|solutionrelative:windowsformsapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CCABDCAA-1065-4759-BDB6-7DFB7D6126E3}|WindowsFormsApp1\\WindowsFormsApp1.csproj|c:\\users\\tdhuy\\documents\\github\\dotnet\\ql_tour_dl\\windowsformsapp1\\windowsformsapp1\\form6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CCABDCAA-1065-4759-BDB6-7DFB7D6126E3}|WindowsFormsApp1\\WindowsFormsApp1.csproj|solutionrelative:windowsformsapp1\\form6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CCABDCAA-1065-4759-BDB6-7DFB7D6126E3}|WindowsFormsApp1\\WindowsFormsApp1.csproj|c:\\users\\tdhuy\\documents\\github\\dotnet\\ql_tour_dl\\windowsformsapp1\\windowsformsapp1\\form6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{CCABDCAA-1065-4759-BDB6-7DFB7D6126E3}|WindowsFormsApp1\\WindowsFormsApp1.csproj|solutionrelative:windowsformsapp1\\form6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CCABDCAA-1065-4759-BDB6-7DFB7D6126E3}|WindowsFormsApp1\\WindowsFormsApp1.csproj|c:\\users\\tdhuy\\documents\\github\\dotnet\\ql_tour_dl\\windowsformsapp1\\windowsformsapp1\\ucpayment.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
-      "RelativeMoniker": "D:0:0:{CCABDCAA-1065-4759-BDB6-7DFB7D6126E3}|WindowsFormsApp1\\WindowsFormsApp1.csproj|solutionrelative:windowsformsapp1\\ucpayment.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CCABDCAA-1065-4759-BDB6-7DFB7D6126E3}|WindowsFormsApp1\\WindowsFormsApp1.csproj|c:\\users\\tdhuy\\documents\\github\\dotnet\\ql_tour_dl\\windowsformsapp1\\windowsformsapp1\\ucbooking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{CCABDCAA-1065-4759-BDB6-7DFB7D6126E3}|WindowsFormsApp1\\WindowsFormsApp1.csproj|C:\\Users\\tdhuy\\Documents\\GitHub\\dotnet\\QL_TOUR_DL\\WindowsFormsApp1\\windowsformsapp1\\ucbooking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{CCABDCAA-1065-4759-BDB6-7DFB7D6126E3}|WindowsFormsApp1\\WindowsFormsApp1.csproj|solutionrelative:windowsformsapp1\\ucbooking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CCABDCAA-1065-4759-BDB6-7DFB7D6126E3}|WindowsFormsApp1\\WindowsFormsApp1.csproj|C:\\Users\\tdhuy\\Documents\\GitHub\\dotnet\\QL_TOUR_DL\\WindowsFormsApp1\\windowsformsapp1\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CCABDCAA-1065-4759-BDB6-7DFB7D6126E3}|WindowsFormsApp1\\WindowsFormsApp1.csproj|solutionrelative:windowsformsapp1\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CCABDCAA-1065-4759-BDB6-7DFB7D6126E3}|WindowsFormsApp1\\WindowsFormsApp1.csproj|C:\\Users\\tdhuy\\Documents\\GitHub\\dotnet\\QL_TOUR_DL\\WindowsFormsApp1\\windowsformsapp1\\uctourlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CCABDCAA-1065-4759-BDB6-7DFB7D6126E3}|WindowsFormsApp1\\WindowsFormsApp1.csproj|solutionrelative:windowsformsapp1\\uctourlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CCABDCAA-1065-4759-BDB6-7DFB7D6126E3}|WindowsFormsApp1\\WindowsFormsApp1.csproj|c:\\users\\tdhuy\\documents\\github\\dotnet\\ql_tour_dl\\windowsformsapp1\\windowsformsapp1\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{CCABDCAA-1065-4759-BDB6-7DFB7D6126E3}|WindowsFormsApp1\\WindowsFormsApp1.csproj|solutionrelative:windowsformsapp1\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{CCABDCAA-1065-4759-BDB6-7DFB7D6126E3}|WindowsFormsApp1\\WindowsFormsApp1.csproj|C:\\Users\\tdhuy\\Documents\\GitHub\\dotnet\\QL_TOUR_DL\\WindowsFormsApp1\\windowsformsapp1\\form6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CCABDCAA-1065-4759-BDB6-7DFB7D6126E3}|WindowsFormsApp1\\WindowsFormsApp1.csproj|solutionrelative:windowsformsapp1\\form6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CCABDCAA-1065-4759-BDB6-7DFB7D6126E3}|WindowsFormsApp1\\WindowsFormsApp1.csproj|c:\\users\\tdhuy\\documents\\github\\dotnet\\ql_tour_dl\\windowsformsapp1\\windowsformsapp1\\models.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CCABDCAA-1065-4759-BDB6-7DFB7D6126E3}|WindowsFormsApp1\\WindowsFormsApp1.csproj|solutionrelative:windowsformsapp1\\models.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CCABDCAA-1065-4759-BDB6-7DFB7D6126E3}|WindowsFormsApp1\\WindowsFormsApp1.csproj|C:\\Users\\tdhuy\\Documents\\GitHub\\dotnet\\QL_TOUR_DL\\WindowsFormsApp1\\windowsformsapp1\\form6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCABDCAA-1065-4759-BDB6-7DFB7D6126E3}|WindowsFormsApp1\\WindowsFormsApp1.csproj|solutionrelative:windowsformsapp1\\form6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCABDCAA-1065-4759-BDB6-7DFB7D6126E3}|WindowsFormsApp1\\WindowsFormsApp1.csproj|C:\\Users\\tdhuy\\Documents\\GitHub\\dotnet\\QL_TOUR_DL\\WindowsFormsApp1\\windowsformsapp1\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CCABDCAA-1065-4759-BDB6-7DFB7D6126E3}|WindowsFormsApp1\\WindowsFormsApp1.csproj|solutionrelative:windowsformsapp1\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CCABDCAA-1065-4759-BDB6-7DFB7D6126E3}|WindowsFormsApp1\\WindowsFormsApp1.csproj|C:\\Users\\tdhuy\\Documents\\GitHub\\dotnet\\QL_TOUR_DL\\WindowsFormsApp1\\windowsformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -79,8 +55,36 @@
       "RelativeMoniker": "D:0:0:{CCABDCAA-1065-4759-BDB6-7DFB7D6126E3}|WindowsFormsApp1\\WindowsFormsApp1.csproj|solutionrelative:windowsformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CCABDCAA-1065-4759-BDB6-7DFB7D6126E3}|WindowsFormsApp1\\WindowsFormsApp1.csproj|C:\\Users\\tdhuy\\Documents\\GitHub\\dotnet\\QL_TOUR_DL\\WindowsFormsApp1\\windowsformsapp1\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{CCABDCAA-1065-4759-BDB6-7DFB7D6126E3}|WindowsFormsApp1\\WindowsFormsApp1.csproj|solutionrelative:windowsformsapp1\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{CCABDCAA-1065-4759-BDB6-7DFB7D6126E3}|WindowsFormsApp1\\WindowsFormsApp1.csproj|C:\\Users\\tdhuy\\Documents\\GitHub\\dotnet\\QL_TOUR_DL\\WindowsFormsApp1\\windowsformsapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCABDCAA-1065-4759-BDB6-7DFB7D6126E3}|WindowsFormsApp1\\WindowsFormsApp1.csproj|solutionrelative:windowsformsapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCABDCAA-1065-4759-BDB6-7DFB7D6126E3}|WindowsFormsApp1\\WindowsFormsApp1.csproj|C:\\Users\\tdhuy\\Documents\\GitHub\\dotnet\\QL_TOUR_DL\\WindowsFormsApp1\\windowsformsapp1\\uctourlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCABDCAA-1065-4759-BDB6-7DFB7D6126E3}|WindowsFormsApp1\\WindowsFormsApp1.csproj|solutionrelative:windowsformsapp1\\uctourlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCABDCAA-1065-4759-BDB6-7DFB7D6126E3}|WindowsFormsApp1\\WindowsFormsApp1.csproj|C:\\Users\\tdhuy\\Documents\\GitHub\\dotnet\\QL_TOUR_DL\\WindowsFormsApp1\\windowsformsapp1\\uctourlist.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCABDCAA-1065-4759-BDB6-7DFB7D6126E3}|WindowsFormsApp1\\WindowsFormsApp1.csproj|solutionrelative:windowsformsapp1\\uctourlist.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCABDCAA-1065-4759-BDB6-7DFB7D6126E3}|WindowsFormsApp1\\WindowsFormsApp1.csproj|C:\\Users\\tdhuy\\Documents\\GitHub\\dotnet\\QL_TOUR_DL\\WindowsFormsApp1\\windowsformsapp1\\dbconnector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCABDCAA-1065-4759-BDB6-7DFB7D6126E3}|WindowsFormsApp1\\WindowsFormsApp1.csproj|solutionrelative:windowsformsapp1\\dbconnector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCABDCAA-1065-4759-BDB6-7DFB7D6126E3}|WindowsFormsApp1\\WindowsFormsApp1.csproj|C:\\Users\\tdhuy\\Documents\\GitHub\\dotnet\\QL_TOUR_DL\\WindowsFormsApp1\\windowsformsapp1\\ucpayment.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "RelativeMoniker": "D:0:0:{CCABDCAA-1065-4759-BDB6-7DFB7D6126E3}|WindowsFormsApp1\\WindowsFormsApp1.csproj|solutionrelative:windowsformsapp1\\ucpayment.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCABDCAA-1065-4759-BDB6-7DFB7D6126E3}|WindowsFormsApp1\\WindowsFormsApp1.csproj|C:\\Users\\tdhuy\\Documents\\GitHub\\dotnet\\QL_TOUR_DL\\WindowsFormsApp1\\windowsformsapp1\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCABDCAA-1065-4759-BDB6-7DFB7D6126E3}|WindowsFormsApp1\\WindowsFormsApp1.csproj|solutionrelative:windowsformsapp1\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCABDCAA-1065-4759-BDB6-7DFB7D6126E3}|WindowsFormsApp1\\WindowsFormsApp1.csproj|C:\\Users\\tdhuy\\Documents\\GitHub\\dotnet\\QL_TOUR_DL\\WindowsFormsApp1\\windowsformsapp1\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CCABDCAA-1065-4759-BDB6-7DFB7D6126E3}|WindowsFormsApp1\\WindowsFormsApp1.csproj|solutionrelative:windowsformsapp1\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCABDCAA-1065-4759-BDB6-7DFB7D6126E3}|WindowsFormsApp1\\WindowsFormsApp1.csproj|C:\\Users\\tdhuy\\Documents\\GitHub\\dotnet\\QL_TOUR_DL\\WindowsFormsApp1\\windowsformsapp1\\models.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCABDCAA-1065-4759-BDB6-7DFB7D6126E3}|WindowsFormsApp1\\WindowsFormsApp1.csproj|solutionrelative:windowsformsapp1\\models.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CCABDCAA-1065-4759-BDB6-7DFB7D6126E3}|WindowsFormsApp1\\WindowsFormsApp1.csproj|C:\\Users\\tdhuy\\Documents\\GitHub\\dotnet\\QL_TOUR_DL\\WindowsFormsApp1\\windowsformsapp1\\form3.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -130,7 +134,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -150,136 +154,57 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ucTourList.cs",
-              "DocumentMoniker": "C:\\Users\\tdhuy\\Documents\\GitHub\\dotnet\\QL_TOUR_DL\\WindowsFormsApp1\\WindowsFormsApp1\\ucTourList.cs",
-              "RelativeDocumentMoniker": "WindowsFormsApp1\\ucTourList.cs",
-              "ToolTip": "C:\\Users\\tdhuy\\Documents\\GitHub\\dotnet\\QL_TOUR_DL\\WindowsFormsApp1\\WindowsFormsApp1\\ucTourList.cs",
-              "RelativeToolTip": "WindowsFormsApp1\\ucTourList.cs",
-              "ViewState": "AgIAAEQAAAAAAAAAAAAAAEcAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-19T03:01:16.72Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ucTourList.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\tdhuy\\Documents\\GitHub\\dotnet\\QL_TOUR_DL\\WindowsFormsApp1\\WindowsFormsApp1\\ucTourList.Designer.cs",
-              "RelativeDocumentMoniker": "WindowsFormsApp1\\ucTourList.Designer.cs",
-              "ToolTip": "C:\\Users\\tdhuy\\Documents\\GitHub\\dotnet\\QL_TOUR_DL\\WindowsFormsApp1\\WindowsFormsApp1\\ucTourList.Designer.cs",
-              "RelativeToolTip": "WindowsFormsApp1\\ucTourList.Designer.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAAAD0AAABUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-19T02:37:18.179Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ucTourList.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\tdhuy\\Documents\\GitHub\\dotnet\\QL_TOUR_DL\\WindowsFormsApp1\\WindowsFormsApp1\\ucTourList.cs",
-              "RelativeDocumentMoniker": "WindowsFormsApp1\\ucTourList.cs",
-              "ToolTip": "C:\\Users\\tdhuy\\Documents\\GitHub\\dotnet\\QL_TOUR_DL\\WindowsFormsApp1\\WindowsFormsApp1\\ucTourList.cs [Design]",
-              "RelativeToolTip": "WindowsFormsApp1\\ucTourList.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-19T02:41:59.69Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "DbConnector.cs",
-              "DocumentMoniker": "C:\\Users\\tdhuy\\Documents\\GitHub\\dotnet\\QL_TOUR_DL\\WindowsFormsApp1\\WindowsFormsApp1\\DbConnector.cs",
-              "RelativeDocumentMoniker": "WindowsFormsApp1\\DbConnector.cs",
-              "ToolTip": "C:\\Users\\tdhuy\\Documents\\GitHub\\dotnet\\QL_TOUR_DL\\WindowsFormsApp1\\WindowsFormsApp1\\DbConnector.cs",
-              "RelativeToolTip": "WindowsFormsApp1\\DbConnector.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-19T02:35:21.582Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "ucPayment.cs",
               "DocumentMoniker": "C:\\Users\\tdhuy\\Documents\\GitHub\\dotnet\\QL_TOUR_DL\\WindowsFormsApp1\\WindowsFormsApp1\\ucPayment.cs",
               "RelativeDocumentMoniker": "WindowsFormsApp1\\ucPayment.cs",
               "ToolTip": "C:\\Users\\tdhuy\\Documents\\GitHub\\dotnet\\QL_TOUR_DL\\WindowsFormsApp1\\WindowsFormsApp1\\ucPayment.cs",
               "RelativeToolTip": "WindowsFormsApp1\\ucPayment.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAiwHkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-19T02:36:02.042Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ucBooking.cs",
-              "DocumentMoniker": "C:\\Users\\tdhuy\\Documents\\GitHub\\dotnet\\QL_TOUR_DL\\WindowsFormsApp1\\WindowsFormsApp1\\ucBooking.cs",
-              "RelativeDocumentMoniker": "WindowsFormsApp1\\ucBooking.cs",
-              "ToolTip": "C:\\Users\\tdhuy\\Documents\\GitHub\\dotnet\\QL_TOUR_DL\\WindowsFormsApp1\\WindowsFormsApp1\\ucBooking.cs",
-              "RelativeToolTip": "WindowsFormsApp1\\ucBooking.cs",
-              "ViewState": "AgIAAGQAAAAAAAAAAAAAAIEAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-19T02:35:55.748Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "ucPayment.Designer.cs",
               "DocumentMoniker": "C:\\Users\\tdhuy\\Documents\\GitHub\\dotnet\\QL_TOUR_DL\\WindowsFormsApp1\\WindowsFormsApp1\\ucPayment.Designer.cs",
               "RelativeDocumentMoniker": "WindowsFormsApp1\\ucPayment.Designer.cs",
               "ToolTip": "C:\\Users\\tdhuy\\Documents\\GitHub\\dotnet\\QL_TOUR_DL\\WindowsFormsApp1\\WindowsFormsApp1\\ucPayment.Designer.cs",
               "RelativeToolTip": "WindowsFormsApp1\\ucPayment.Designer.cs",
-              "ViewState": "AgIAAGoAAAAAAAAAAAAAAAIAAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAAIEAAAAAAAAAAAAiwI8AAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-19T02:36:56.928Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 0,
+              "Title": "ucPayment.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\tdhuy\\Documents\\GitHub\\dotnet\\QL_TOUR_DL\\WindowsFormsApp1\\WindowsFormsApp1\\ucPayment.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\ucPayment.cs",
+              "ToolTip": "C:\\Users\\tdhuy\\Documents\\GitHub\\dotnet\\QL_TOUR_DL\\WindowsFormsApp1\\WindowsFormsApp1\\ucPayment.cs [Design]",
+              "RelativeToolTip": "WindowsFormsApp1\\ucPayment.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T04:06:45.734Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "ucBooking.Designer.cs",
               "DocumentMoniker": "C:\\Users\\tdhuy\\Documents\\GitHub\\dotnet\\QL_TOUR_DL\\WindowsFormsApp1\\WindowsFormsApp1\\ucBooking.Designer.cs",
               "RelativeDocumentMoniker": "WindowsFormsApp1\\ucBooking.Designer.cs",
               "ToolTip": "C:\\Users\\tdhuy\\Documents\\GitHub\\dotnet\\QL_TOUR_DL\\WindowsFormsApp1\\WindowsFormsApp1\\ucBooking.Designer.cs",
               "RelativeToolTip": "WindowsFormsApp1\\ucBooking.Designer.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAswBEAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAAAGMAAABMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-19T02:36:48.171Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Form6.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\tdhuy\\Documents\\GitHub\\dotnet\\QL_TOUR_DL\\WindowsFormsApp1\\WindowsFormsApp1\\Form6.Designer.cs",
-              "RelativeDocumentMoniker": "WindowsFormsApp1\\Form6.Designer.cs",
-              "ToolTip": "C:\\Users\\tdhuy\\Documents\\GitHub\\dotnet\\QL_TOUR_DL\\WindowsFormsApp1\\WindowsFormsApp1\\Form6.Designer.cs",
-              "RelativeToolTip": "WindowsFormsApp1\\Form6.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-19T02:27:32.988Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-19T02:36:48.171Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\tdhuy\\Documents\\GitHub\\dotnet\\QL_TOUR_DL\\WindowsFormsApp1\\WindowsFormsApp1\\Program.cs",
-              "RelativeDocumentMoniker": "WindowsFormsApp1\\Program.cs",
-              "ToolTip": "C:\\Users\\tdhuy\\Documents\\GitHub\\dotnet\\QL_TOUR_DL\\WindowsFormsApp1\\WindowsFormsApp1\\Program.cs",
-              "RelativeToolTip": "WindowsFormsApp1\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-19T02:34:49.265Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
               "Title": "Form6.cs",
               "DocumentMoniker": "C:\\Users\\tdhuy\\Documents\\GitHub\\dotnet\\QL_TOUR_DL\\WindowsFormsApp1\\WindowsFormsApp1\\Form6.cs",
               "RelativeDocumentMoniker": "WindowsFormsApp1\\Form6.cs",
@@ -287,24 +212,150 @@
               "RelativeToolTip": "WindowsFormsApp1\\Form6.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABcAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-19T02:27:05.035Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-19T02:27:05.035Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 5,
+              "Title": "Form6.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\tdhuy\\Documents\\GitHub\\dotnet\\QL_TOUR_DL\\WindowsFormsApp1\\WindowsFormsApp1\\Form6.Designer.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\Form6.Designer.cs",
+              "ToolTip": "C:\\Users\\tdhuy\\Documents\\GitHub\\dotnet\\QL_TOUR_DL\\WindowsFormsApp1\\WindowsFormsApp1\\Form6.Designer.cs",
+              "RelativeToolTip": "WindowsFormsApp1\\Form6.Designer.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAQwCkAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T02:27:32.988Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ucBooking.cs",
+              "DocumentMoniker": "C:\\Users\\tdhuy\\Documents\\GitHub\\dotnet\\QL_TOUR_DL\\WindowsFormsApp1\\WindowsFormsApp1\\ucBooking.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\ucBooking.cs",
+              "ToolTip": "C:\\Users\\tdhuy\\Documents\\GitHub\\dotnet\\QL_TOUR_DL\\WindowsFormsApp1\\WindowsFormsApp1\\ucBooking.cs",
+              "RelativeToolTip": "WindowsFormsApp1\\ucBooking.cs",
+              "ViewState": "AgIAAHYAAAAAAAAAAAAUwJMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T02:35:55.748Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ucBooking.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\tdhuy\\Documents\\GitHub\\dotnet\\QL_TOUR_DL\\WindowsFormsApp1\\WindowsFormsApp1\\ucBooking.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\ucBooking.cs",
+              "ToolTip": "C:\\Users\\tdhuy\\Documents\\GitHub\\dotnet\\QL_TOUR_DL\\WindowsFormsApp1\\WindowsFormsApp1\\ucBooking.cs [Design]",
+              "RelativeToolTip": "WindowsFormsApp1\\ucBooking.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T02:35:50.563Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Form3.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\tdhuy\\Documents\\GitHub\\dotnet\\QL_TOUR_DL\\WindowsFormsApp1\\WindowsFormsApp1\\Form3.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\Form3.cs",
+              "ToolTip": "C:\\Users\\tdhuy\\Documents\\GitHub\\dotnet\\QL_TOUR_DL\\WindowsFormsApp1\\WindowsFormsApp1\\Form3.cs [Design]",
+              "RelativeToolTip": "WindowsFormsApp1\\Form3.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-18T03:19:05.021Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "Form6.cs [Design]",
               "DocumentMoniker": "C:\\Users\\tdhuy\\Documents\\GitHub\\dotnet\\QL_TOUR_DL\\WindowsFormsApp1\\WindowsFormsApp1\\Form6.cs",
               "RelativeDocumentMoniker": "WindowsFormsApp1\\Form6.cs",
               "ToolTip": "C:\\Users\\tdhuy\\Documents\\GitHub\\dotnet\\QL_TOUR_DL\\WindowsFormsApp1\\WindowsFormsApp1\\Form6.cs [Design]",
               "RelativeToolTip": "WindowsFormsApp1\\Form6.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-19T02:27:03.745Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2026-03-19T02:27:03.745Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ucTourList.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\tdhuy\\Documents\\GitHub\\dotnet\\QL_TOUR_DL\\WindowsFormsApp1\\WindowsFormsApp1\\ucTourList.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\ucTourList.cs",
+              "ToolTip": "C:\\Users\\tdhuy\\Documents\\GitHub\\dotnet\\QL_TOUR_DL\\WindowsFormsApp1\\WindowsFormsApp1\\ucTourList.cs [Design]",
+              "RelativeToolTip": "WindowsFormsApp1\\ucTourList.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T02:41:59.69Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\tdhuy\\Documents\\GitHub\\dotnet\\QL_TOUR_DL\\WindowsFormsApp1\\WindowsFormsApp1\\Form1.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\Form1.cs",
+              "ToolTip": "C:\\Users\\tdhuy\\Documents\\GitHub\\dotnet\\QL_TOUR_DL\\WindowsFormsApp1\\WindowsFormsApp1\\Form1.cs",
+              "RelativeToolTip": "WindowsFormsApp1\\Form1.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAYwEAAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-18T03:21:36.818Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\tdhuy\\Documents\\GitHub\\dotnet\\QL_TOUR_DL\\WindowsFormsApp1\\WindowsFormsApp1\\Program.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\Program.cs",
+              "ToolTip": "C:\\Users\\tdhuy\\Documents\\GitHub\\dotnet\\QL_TOUR_DL\\WindowsFormsApp1\\WindowsFormsApp1\\Program.cs",
+              "RelativeToolTip": "WindowsFormsApp1\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T02:34:49.265Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\tdhuy\\Documents\\GitHub\\dotnet\\QL_TOUR_DL\\WindowsFormsApp1\\WindowsFormsApp1\\Form1.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\Form1.cs",
+              "ToolTip": "C:\\Users\\tdhuy\\Documents\\GitHub\\dotnet\\QL_TOUR_DL\\WindowsFormsApp1\\WindowsFormsApp1\\Form1.cs [Design]",
+              "RelativeToolTip": "WindowsFormsApp1\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-18T03:21:39.384Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "DbConnector.cs",
+              "DocumentMoniker": "C:\\Users\\tdhuy\\Documents\\GitHub\\dotnet\\QL_TOUR_DL\\WindowsFormsApp1\\WindowsFormsApp1\\DbConnector.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\DbConnector.cs",
+              "ToolTip": "C:\\Users\\tdhuy\\Documents\\GitHub\\dotnet\\QL_TOUR_DL\\WindowsFormsApp1\\WindowsFormsApp1\\DbConnector.cs",
+              "RelativeToolTip": "WindowsFormsApp1\\DbConnector.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T02:35:21.582Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ucTourList.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\tdhuy\\Documents\\GitHub\\dotnet\\QL_TOUR_DL\\WindowsFormsApp1\\WindowsFormsApp1\\ucTourList.Designer.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\ucTourList.Designer.cs",
+              "ToolTip": "C:\\Users\\tdhuy\\Documents\\GitHub\\dotnet\\QL_TOUR_DL\\WindowsFormsApp1\\WindowsFormsApp1\\ucTourList.Designer.cs",
+              "RelativeToolTip": "WindowsFormsApp1\\ucTourList.Designer.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAcwEEAAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T02:37:18.179Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ucTourList.cs",
+              "DocumentMoniker": "C:\\Users\\tdhuy\\Documents\\GitHub\\dotnet\\QL_TOUR_DL\\WindowsFormsApp1\\WindowsFormsApp1\\ucTourList.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\ucTourList.cs",
+              "ToolTip": "C:\\Users\\tdhuy\\Documents\\GitHub\\dotnet\\QL_TOUR_DL\\WindowsFormsApp1\\WindowsFormsApp1\\ucTourList.cs",
+              "RelativeToolTip": "WindowsFormsApp1\\ucTourList.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T03:01:16.72Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "ucPayment.resx",
               "DocumentMoniker": "C:\\Users\\tdhuy\\Documents\\GitHub\\dotnet\\QL_TOUR_DL\\WindowsFormsApp1\\WindowsFormsApp1\\ucPayment.resx",
               "RelativeDocumentMoniker": "WindowsFormsApp1\\ucPayment.resx",
@@ -316,31 +367,18 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "ucBooking.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\tdhuy\\Documents\\GitHub\\dotnet\\QL_TOUR_DL\\WindowsFormsApp1\\WindowsFormsApp1\\ucBooking.cs",
-              "RelativeDocumentMoniker": "WindowsFormsApp1\\ucBooking.cs",
-              "ToolTip": "C:\\Users\\tdhuy\\Documents\\GitHub\\dotnet\\QL_TOUR_DL\\WindowsFormsApp1\\WindowsFormsApp1\\ucBooking.cs [Design]",
-              "RelativeToolTip": "WindowsFormsApp1\\ucBooking.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-19T02:35:50.563Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 19,
               "Title": "Form2.cs [Design]",
               "DocumentMoniker": "C:\\Users\\tdhuy\\Documents\\GitHub\\dotnet\\QL_TOUR_DL\\WindowsFormsApp1\\WindowsFormsApp1\\Form2.cs",
               "RelativeDocumentMoniker": "WindowsFormsApp1\\Form2.cs",
               "ToolTip": "C:\\Users\\tdhuy\\Documents\\GitHub\\dotnet\\QL_TOUR_DL\\WindowsFormsApp1\\WindowsFormsApp1\\Form2.cs [Design]",
               "RelativeToolTip": "WindowsFormsApp1\\Form2.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-18T03:20:06.291Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2026-03-18T03:20:06.291Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 18,
               "Title": "Form2.cs",
               "DocumentMoniker": "C:\\Users\\tdhuy\\Documents\\GitHub\\dotnet\\QL_TOUR_DL\\WindowsFormsApp1\\WindowsFormsApp1\\Form2.cs",
               "RelativeDocumentMoniker": "WindowsFormsApp1\\Form2.cs",
@@ -348,12 +386,11 @@
               "RelativeToolTip": "WindowsFormsApp1\\Form2.cs",
               "ViewState": "AgIAAEwAAAAAAAAAAAAQwGIAAABhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-18T03:20:15.006Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-18T03:20:15.006Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 20,
               "Title": "Models.cs",
               "DocumentMoniker": "C:\\Users\\tdhuy\\Documents\\GitHub\\dotnet\\QL_TOUR_DL\\WindowsFormsApp1\\WindowsFormsApp1\\Models.cs",
               "RelativeDocumentMoniker": "WindowsFormsApp1\\Models.cs",
@@ -361,36 +398,11 @@
               "RelativeToolTip": "WindowsFormsApp1\\Models.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-19T02:34:07.321Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-19T02:34:07.321Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\tdhuy\\Documents\\GitHub\\dotnet\\QL_TOUR_DL\\WindowsFormsApp1\\WindowsFormsApp1\\Form1.cs",
-              "RelativeDocumentMoniker": "WindowsFormsApp1\\Form1.cs",
-              "ToolTip": "C:\\Users\\tdhuy\\Documents\\GitHub\\dotnet\\QL_TOUR_DL\\WindowsFormsApp1\\WindowsFormsApp1\\Form1.cs [Design]",
-              "RelativeToolTip": "WindowsFormsApp1\\Form1.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-18T03:21:39.384Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "Form3.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\tdhuy\\Documents\\GitHub\\dotnet\\QL_TOUR_DL\\WindowsFormsApp1\\WindowsFormsApp1\\Form3.cs",
-              "RelativeDocumentMoniker": "WindowsFormsApp1\\Form3.cs",
-              "ToolTip": "C:\\Users\\tdhuy\\Documents\\GitHub\\dotnet\\QL_TOUR_DL\\WindowsFormsApp1\\WindowsFormsApp1\\Form3.cs [Design]",
-              "RelativeToolTip": "WindowsFormsApp1\\Form3.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-18T03:19:05.021Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "Form4.Designer.cs",
               "DocumentMoniker": "C:\\Users\\tdhuy\\Documents\\GitHub\\dotnet\\QL_TOUR_DL\\WindowsFormsApp1\\WindowsFormsApp1\\Form4.Designer.cs",
               "RelativeDocumentMoniker": "WindowsFormsApp1\\Form4.Designer.cs",
@@ -398,12 +410,11 @@
               "RelativeToolTip": "WindowsFormsApp1\\Form4.Designer.cs",
               "ViewState": "AgIAACABAAAAAAAAAADwvyQBAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-18T03:28:16.233Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-18T03:28:16.233Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "Form3.Designer.cs",
               "DocumentMoniker": "C:\\Users\\tdhuy\\Documents\\GitHub\\dotnet\\QL_TOUR_DL\\WindowsFormsApp1\\WindowsFormsApp1\\Form3.Designer.cs",
               "RelativeDocumentMoniker": "WindowsFormsApp1\\Form3.Designer.cs",
@@ -411,49 +422,33 @@
               "RelativeToolTip": "WindowsFormsApp1\\Form3.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-18T03:19:13.583Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-18T03:19:13.583Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\tdhuy\\Documents\\GitHub\\dotnet\\QL_TOUR_DL\\WindowsFormsApp1\\WindowsFormsApp1\\Form1.cs",
-              "RelativeDocumentMoniker": "WindowsFormsApp1\\Form1.cs",
-              "ToolTip": "C:\\Users\\tdhuy\\Documents\\GitHub\\dotnet\\QL_TOUR_DL\\WindowsFormsApp1\\WindowsFormsApp1\\Form1.cs",
-              "RelativeToolTip": "WindowsFormsApp1\\Form1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-18T03:21:36.818Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "Form4.cs [Design]",
               "DocumentMoniker": "C:\\Users\\tdhuy\\Documents\\GitHub\\dotnet\\QL_TOUR_DL\\WindowsFormsApp1\\WindowsFormsApp1\\Form4.cs",
               "RelativeDocumentMoniker": "WindowsFormsApp1\\Form4.cs",
               "ToolTip": "C:\\Users\\tdhuy\\Documents\\GitHub\\dotnet\\QL_TOUR_DL\\WindowsFormsApp1\\WindowsFormsApp1\\Form4.cs [Design]",
               "RelativeToolTip": "WindowsFormsApp1\\Form4.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-18T03:28:02.922Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2026-03-18T03:28:02.922Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "Form5.cs [Design]",
               "DocumentMoniker": "C:\\Users\\tdhuy\\Documents\\GitHub\\dotnet\\QL_TOUR_DL\\WindowsFormsApp1\\WindowsFormsApp1\\Form5.cs",
               "RelativeDocumentMoniker": "WindowsFormsApp1\\Form5.cs",
               "ToolTip": "C:\\Users\\tdhuy\\Documents\\GitHub\\dotnet\\QL_TOUR_DL\\WindowsFormsApp1\\WindowsFormsApp1\\Form5.cs [Design]",
               "RelativeToolTip": "WindowsFormsApp1\\Form5.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-18T03:57:31.142Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2026-03-18T03:57:31.142Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "Form1.Designer.cs",
               "DocumentMoniker": "C:\\Users\\tdhuy\\Documents\\GitHub\\dotnet\\QL_TOUR_DL\\WindowsFormsApp1\\WindowsFormsApp1\\Form1.Designer.cs",
               "RelativeDocumentMoniker": "WindowsFormsApp1\\Form1.Designer.cs",
@@ -461,12 +456,11 @@
               "RelativeToolTip": "WindowsFormsApp1\\Form1.Designer.cs",
               "ViewState": "AgIAAFMAAAAAAAAAAAAQwH4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-18T03:21:58.577Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-18T03:21:58.577Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "Form5.cs",
               "DocumentMoniker": "C:\\Users\\tdhuy\\Documents\\GitHub\\dotnet\\QL_TOUR_DL\\WindowsFormsApp1\\WindowsFormsApp1\\Form5.cs",
               "RelativeDocumentMoniker": "WindowsFormsApp1\\Form5.cs",
@@ -474,12 +468,11 @@
               "RelativeToolTip": "WindowsFormsApp1\\Form5.cs",
               "ViewState": "AgIAAFwAAAAAAAAAAAAlwGkAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-18T03:57:38.027Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-18T03:57:38.027Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "Form4.cs",
               "DocumentMoniker": "C:\\Users\\tdhuy\\Documents\\GitHub\\dotnet\\QL_TOUR_DL\\WindowsFormsApp1\\WindowsFormsApp1\\Form4.cs",
               "RelativeDocumentMoniker": "WindowsFormsApp1\\Form4.cs",
@@ -487,12 +480,11 @@
               "RelativeToolTip": "WindowsFormsApp1\\Form4.cs",
               "ViewState": "AgIAAPkAAAAAAAAAAAAIwPsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-18T03:28:07.384Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-18T03:28:07.384Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "Form5.Designer.cs",
               "DocumentMoniker": "C:\\Users\\tdhuy\\Documents\\GitHub\\dotnet\\QL_TOUR_DL\\WindowsFormsApp1\\WindowsFormsApp1\\Form5.Designer.cs",
               "RelativeDocumentMoniker": "WindowsFormsApp1\\Form5.Designer.cs",
@@ -500,12 +492,11 @@
               "RelativeToolTip": "WindowsFormsApp1\\Form5.Designer.cs",
               "ViewState": "AgIAAMsAAAAAAAAAAAAQwOgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-18T03:57:47.769Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-18T03:57:47.769Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "Form3.cs",
               "DocumentMoniker": "C:\\Users\\tdhuy\\Documents\\GitHub\\dotnet\\QL_TOUR_DL\\WindowsFormsApp1\\WindowsFormsApp1\\Form3.cs",
               "RelativeDocumentMoniker": "WindowsFormsApp1\\Form3.cs",
@@ -513,20 +504,18 @@
               "RelativeToolTip": "WindowsFormsApp1\\Form3.cs",
               "ViewState": "AgIAAC8AAAAAAAAAAAAswDEAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-18T03:19:23.149Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-18T03:19:23.149Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 30,
               "Title": "Form3.resx",
               "DocumentMoniker": "C:\\Users\\tdhuy\\Documents\\GitHub\\dotnet\\QL_TOUR_DL\\WindowsFormsApp1\\WindowsFormsApp1\\Form3.resx",
               "RelativeDocumentMoniker": "WindowsFormsApp1\\Form3.resx",
               "ToolTip": "C:\\Users\\tdhuy\\Documents\\GitHub\\dotnet\\QL_TOUR_DL\\WindowsFormsApp1\\WindowsFormsApp1\\Form3.resx",
               "RelativeToolTip": "WindowsFormsApp1\\Form3.resx",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2026-03-18T03:19:14.354Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-18T03:19:14.354Z"
             }
           ]
         },
