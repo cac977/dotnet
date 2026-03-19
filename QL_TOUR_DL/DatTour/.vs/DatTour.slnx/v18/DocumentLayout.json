@@ -1,38 +1,44 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\dotnet\\QL_TOUR_DL\\DatTour\\",
+  "WorkspaceRootPath": "C:\\Users\\tdhuy\\Documents\\GitHub\\dotnet\\QL_TOUR_DL\\DatTour\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CA57726F-52FD-1E2B-7F3F-6D727EB5D75B}|DatTour.csproj|c:\\dotnet\\ql_tour_dl\\dattour\\ucbooking.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CA57726F-52FD-1E2B-7F3F-6D727EB5D75B}|DatTour.csproj|solutionrelative:ucbooking.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CA57726F-52FD-1E2B-7F3F-6D727EB5D75B}|DatTour.csproj|c:\\users\\tdhuy\\documents\\github\\dotnet\\ql_tour_dl\\dattour\\form6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CA57726F-52FD-1E2B-7F3F-6D727EB5D75B}|DatTour.csproj|solutionrelative:form6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CA57726F-52FD-1E2B-7F3F-6D727EB5D75B}|DatTour.csproj|c:\\dotnet\\ql_tour_dl\\dattour\\uctourlist.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CA57726F-52FD-1E2B-7F3F-6D727EB5D75B}|DatTour.csproj|solutionrelative:uctourlist.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CA57726F-52FD-1E2B-7F3F-6D727EB5D75B}|DatTour.csproj|c:\\dotnet\\ql_tour_dl\\dattour\\ucbooking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{CA57726F-52FD-1E2B-7F3F-6D727EB5D75B}|DatTour.csproj|solutionrelative:ucbooking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CA57726F-52FD-1E2B-7F3F-6D727EB5D75B}|DatTour.csproj|c:\\dotnet\\ql_tour_dl\\dattour\\uctourlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{CA57726F-52FD-1E2B-7F3F-6D727EB5D75B}|DatTour.csproj|C:\\Users\\tdhuy\\Documents\\GitHub\\dotnet\\QL_TOUR_DL\\DatTour\\uctourlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{CA57726F-52FD-1E2B-7F3F-6D727EB5D75B}|DatTour.csproj|solutionrelative:uctourlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CA57726F-52FD-1E2B-7F3F-6D727EB5D75B}|DatTour.csproj|c:\\dotnet\\ql_tour_dl\\dattour\\databasehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CA57726F-52FD-1E2B-7F3F-6D727EB5D75B}|DatTour.csproj|c:\\users\\tdhuy\\documents\\github\\dotnet\\ql_tour_dl\\dattour\\ucpayment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CA57726F-52FD-1E2B-7F3F-6D727EB5D75B}|DatTour.csproj|solutionrelative:ucpayment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA57726F-52FD-1E2B-7F3F-6D727EB5D75B}|DatTour.csproj|C:\\Users\\tdhuy\\Documents\\GitHub\\dotnet\\QL_TOUR_DL\\DatTour\\ucbooking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CA57726F-52FD-1E2B-7F3F-6D727EB5D75B}|DatTour.csproj|solutionrelative:ucbooking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA57726F-52FD-1E2B-7F3F-6D727EB5D75B}|DatTour.csproj|c:\\users\\tdhuy\\documents\\github\\dotnet\\ql_tour_dl\\dattour\\ucbooking.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA57726F-52FD-1E2B-7F3F-6D727EB5D75B}|DatTour.csproj|solutionrelative:ucbooking.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA57726F-52FD-1E2B-7F3F-6D727EB5D75B}|DatTour.csproj|c:\\users\\tdhuy\\documents\\github\\dotnet\\ql_tour_dl\\dattour\\uctourlist.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA57726F-52FD-1E2B-7F3F-6D727EB5D75B}|DatTour.csproj|solutionrelative:uctourlist.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA57726F-52FD-1E2B-7F3F-6D727EB5D75B}|DatTour.csproj|c:\\users\\tdhuy\\documents\\github\\dotnet\\ql_tour_dl\\dattour\\databasehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CA57726F-52FD-1E2B-7F3F-6D727EB5D75B}|DatTour.csproj|solutionrelative:databasehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CA57726F-52FD-1E2B-7F3F-6D727EB5D75B}|DatTour.csproj|c:\\dotnet\\ql_tour_dl\\dattour\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CA57726F-52FD-1E2B-7F3F-6D727EB5D75B}|DatTour.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CA57726F-52FD-1E2B-7F3F-6D727EB5D75B}|DatTour.csproj|c:\\dotnet\\ql_tour_dl\\dattour\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CA57726F-52FD-1E2B-7F3F-6D727EB5D75B}|DatTour.csproj|solutionrelative:form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CA57726F-52FD-1E2B-7F3F-6D727EB5D75B}|DatTour.csproj|c:\\dotnet\\ql_tour_dl\\dattour\\models.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CA57726F-52FD-1E2B-7F3F-6D727EB5D75B}|DatTour.csproj|c:\\users\\tdhuy\\documents\\github\\dotnet\\ql_tour_dl\\dattour\\models.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CA57726F-52FD-1E2B-7F3F-6D727EB5D75B}|DatTour.csproj|solutionrelative:models.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\dotnet\\QL_TOUR_DL\\DatTour\\Form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\dotnet\\QL_TOUR_DL\\DatTour\\Form1.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,15 +48,55 @@
       "DocumentGroups": [
         {
           "DockedHeight": 251,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Form6.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\tdhuy\\Documents\\GitHub\\dotnet\\QL_TOUR_DL\\DatTour\\Form6.cs",
+              "RelativeDocumentMoniker": "Form6.cs",
+              "ToolTip": "C:\\Users\\tdhuy\\Documents\\GitHub\\dotnet\\QL_TOUR_DL\\DatTour\\Form6.cs [Design]",
+              "RelativeToolTip": "Form6.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T02:10:58.411Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ucPayment.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\tdhuy\\Documents\\GitHub\\dotnet\\QL_TOUR_DL\\DatTour\\ucPayment.cs",
+              "RelativeDocumentMoniker": "ucPayment.cs",
+              "ToolTip": "C:\\Users\\tdhuy\\Documents\\GitHub\\dotnet\\QL_TOUR_DL\\DatTour\\ucPayment.cs [Design]",
+              "RelativeToolTip": "ucPayment.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T02:10:51.775Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "ucBooking.Designer.cs",
-              "DocumentMoniker": "C:\\dotnet\\QL_TOUR_DL\\DatTour\\ucBooking.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\tdhuy\\Documents\\GitHub\\dotnet\\QL_TOUR_DL\\DatTour\\ucBooking.Designer.cs",
               "RelativeDocumentMoniker": "ucBooking.Designer.cs",
-              "ToolTip": "C:\\dotnet\\QL_TOUR_DL\\DatTour\\ucBooking.Designer.cs",
+              "ToolTip": "C:\\Users\\tdhuy\\Documents\\GitHub\\dotnet\\QL_TOUR_DL\\DatTour\\ucBooking.Designer.cs",
               "RelativeToolTip": "ucBooking.Designer.cs",
               "ViewState": "AgIAANcAAAAAAAAAAAAswOEAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -59,11 +105,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "ucTourList.Designer.cs",
-              "DocumentMoniker": "C:\\dotnet\\QL_TOUR_DL\\DatTour\\ucTourList.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\tdhuy\\Documents\\GitHub\\dotnet\\QL_TOUR_DL\\DatTour\\ucTourList.Designer.cs",
               "RelativeDocumentMoniker": "ucTourList.Designer.cs",
-              "ToolTip": "C:\\dotnet\\QL_TOUR_DL\\DatTour\\ucTourList.Designer.cs",
+              "ToolTip": "C:\\Users\\tdhuy\\Documents\\GitHub\\dotnet\\QL_TOUR_DL\\DatTour\\ucTourList.Designer.cs",
               "RelativeToolTip": "ucTourList.Designer.cs",
               "ViewState": "AgIAAEAAAAAAAAAAAAAcwEgAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -72,11 +118,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "ucBooking.cs [Design]",
-              "DocumentMoniker": "C:\\dotnet\\QL_TOUR_DL\\DatTour\\ucBooking.cs",
+              "DocumentMoniker": "C:\\Users\\tdhuy\\Documents\\GitHub\\dotnet\\QL_TOUR_DL\\DatTour\\ucBooking.cs",
               "RelativeDocumentMoniker": "ucBooking.cs",
-              "ToolTip": "C:\\dotnet\\QL_TOUR_DL\\DatTour\\ucBooking.cs [Design]",
+              "ToolTip": "C:\\Users\\tdhuy\\Documents\\GitHub\\dotnet\\QL_TOUR_DL\\DatTour\\ucBooking.cs [Design]",
               "RelativeToolTip": "ucBooking.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-17T07:20:02.374Z",
@@ -84,11 +130,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "ucTourList.cs [Design]",
-              "DocumentMoniker": "C:\\dotnet\\QL_TOUR_DL\\DatTour\\ucTourList.cs",
+              "DocumentMoniker": "C:\\Users\\tdhuy\\Documents\\GitHub\\dotnet\\QL_TOUR_DL\\DatTour\\ucTourList.cs",
               "RelativeDocumentMoniker": "ucTourList.cs",
-              "ToolTip": "C:\\dotnet\\QL_TOUR_DL\\DatTour\\ucTourList.cs [Design]",
+              "ToolTip": "C:\\Users\\tdhuy\\Documents\\GitHub\\dotnet\\QL_TOUR_DL\\DatTour\\ucTourList.cs [Design]",
               "RelativeToolTip": "ucTourList.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-17T07:23:19.593Z",
@@ -96,11 +142,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "DatabaseHelper.cs",
-              "DocumentMoniker": "C:\\dotnet\\QL_TOUR_DL\\DatTour\\DatabaseHelper.cs",
+              "DocumentMoniker": "C:\\Users\\tdhuy\\Documents\\GitHub\\dotnet\\QL_TOUR_DL\\DatTour\\DatabaseHelper.cs",
               "RelativeDocumentMoniker": "DatabaseHelper.cs",
-              "ToolTip": "C:\\dotnet\\QL_TOUR_DL\\DatTour\\DatabaseHelper.cs",
+              "ToolTip": "C:\\Users\\tdhuy\\Documents\\GitHub\\dotnet\\QL_TOUR_DL\\DatTour\\DatabaseHelper.cs",
               "RelativeToolTip": "DatabaseHelper.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -108,24 +154,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\dotnet\\QL_TOUR_DL\\DatTour\\Form1.cs",
-              "RelativeDocumentMoniker": "Form1.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\dotnet\\QL_TOUR_DL\\DatTour\\Form1.cs",
               "ToolTip": "C:\\dotnet\\QL_TOUR_DL\\DatTour\\Form1.cs",
-              "RelativeToolTip": "Form1.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\dotnet\\QL_TOUR_DL\\DatTour\\Form1.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAUAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-17T03:52:47.001Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "Form1.Designer.cs",
               "DocumentMoniker": "C:\\dotnet\\QL_TOUR_DL\\DatTour\\Form1.Designer.cs",
-              "RelativeDocumentMoniker": "Form1.Designer.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\dotnet\\QL_TOUR_DL\\DatTour\\Form1.Designer.cs",
               "ToolTip": "C:\\dotnet\\QL_TOUR_DL\\DatTour\\Form1.Designer.cs",
-              "RelativeToolTip": "Form1.Designer.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\dotnet\\QL_TOUR_DL\\DatTour\\Form1.Designer.cs",
               "ViewState": "AgIAAB8AAAAAAAAAAAAAACgAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-17T03:47:02.901Z"
@@ -134,9 +180,9 @@
               "$type": "Document",
               "DocumentIndex": 7,
               "Title": "Models.cs",
-              "DocumentMoniker": "C:\\dotnet\\QL_TOUR_DL\\DatTour\\Models.cs",
+              "DocumentMoniker": "C:\\Users\\tdhuy\\Documents\\GitHub\\dotnet\\QL_TOUR_DL\\DatTour\\Models.cs",
               "RelativeDocumentMoniker": "Models.cs",
-              "ToolTip": "C:\\dotnet\\QL_TOUR_DL\\DatTour\\Models.cs",
+              "ToolTip": "C:\\Users\\tdhuy\\Documents\\GitHub\\dotnet\\QL_TOUR_DL\\DatTour\\Models.cs",
               "RelativeToolTip": "Models.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
