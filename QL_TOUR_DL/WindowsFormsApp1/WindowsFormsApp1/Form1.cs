@@ -54,11 +54,6 @@ namespace WindowsFormsApp1
             form5.ShowDialog();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
-
         private void datTour_Click(object sender, EventArgs e)
         {
             Form6 form6 = new Form6();
