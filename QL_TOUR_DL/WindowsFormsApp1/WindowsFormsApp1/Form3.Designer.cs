@@ -44,21 +44,23 @@
             this.radMonth = new System.Windows.Forms.RadioButton();
             this.radYear = new System.Windows.Forms.RadioButton();
             this.radWeek = new System.Windows.Forms.RadioButton();
+            this.panel1 = new System.Windows.Forms.Panel();
             ((System.ComponentModel.ISupportInitialize)(this.dtgrReport)).BeginInit();
             this.tourGroupBox.SuspendLayout();
             this.revenueGroupBox.SuspendLayout();
             this.filterGroupBox.SuspendLayout();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // lblTourFilter
             // 
             this.lblTourFilter.AutoSize = true;
             this.lblTourFilter.Font = new System.Drawing.Font("Microsoft Sans Serif", 32F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTourFilter.Location = new System.Drawing.Point(222, 21);
+            this.lblTourFilter.Location = new System.Drawing.Point(248, 13);
             this.lblTourFilter.Name = "lblTourFilter";
             this.lblTourFilter.Size = new System.Drawing.Size(520, 51);
             this.lblTourFilter.TabIndex = 1;
-            this.lblTourFilter.Text = "THONG KE VA BAO CAO";
+            this.lblTourFilter.Text = "THỐNG KÊ VÀ BÁO CÁO";
             this.lblTourFilter.Click += new System.EventHandler(this.lblTourFilter_Click);
             // 
             // dtgrReport
@@ -66,6 +68,7 @@
             this.dtgrReport.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dtgrReport.Location = new System.Drawing.Point(55, 347);
             this.dtgrReport.Name = "dtgrReport";
+            this.dtgrReport.ReadOnly = true;
             this.dtgrReport.Size = new System.Drawing.Size(890, 230);
             this.dtgrReport.TabIndex = 2;
             // 
@@ -215,17 +218,26 @@
             this.radWeek.UseVisualStyleBackColor = true;
             this.radWeek.CheckedChanged += new System.EventHandler(this.radWeek_CheckedChanged);
             // 
+            // panel1
+            // 
+            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel1.Controls.Add(this.lblTourFilter);
+            this.panel1.Location = new System.Drawing.Point(-9, 0);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(1023, 71);
+            this.panel1.TabIndex = 11;
+            // 
             // Form3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1007, 612);
+            this.Controls.Add(this.panel1);
             this.Controls.Add(this.filterGroupBox);
             this.Controls.Add(this.reportFilterLabel);
             this.Controls.Add(this.revenueGroupBox);
             this.Controls.Add(this.tourGroupBox);
             this.Controls.Add(this.dtgrReport);
-            this.Controls.Add(this.lblTourFilter);
             this.Name = "Form3";
             this.Text = "Form3";
             this.Load += new System.EventHandler(this.Form3_Load);
@@ -236,6 +248,8 @@
             this.revenueGroupBox.PerformLayout();
             this.filterGroupBox.ResumeLayout(false);
             this.filterGroupBox.PerformLayout();
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -258,5 +272,6 @@
         private System.Windows.Forms.RadioButton radYear;
         private System.Windows.Forms.RadioButton radWeek;
         private System.Windows.Forms.RadioButton radMonth;
+        private System.Windows.Forms.Panel panel1;
     }
 }

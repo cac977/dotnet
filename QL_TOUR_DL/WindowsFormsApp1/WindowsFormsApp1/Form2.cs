@@ -13,10 +13,21 @@ namespace WindowsFormsApp1
 {
     public partial class Form2 : Form
     {
-        static String commandText = @"select T.TEN_TOUR, T.SO_NGAY, T.GIA, D.TEN_DD as DIEM_DI, DIADIEM.TEN_DD as DIEM_DEN, L.NGAY_DI,L.NGAY_VE, T.MOTA from TOUR as T 
+        static String commandText = @"select T.TEN_TOUR, T.SO_NGAY, T.GIA, D.TEN_DD as DIEM_DI, DIADIEM.TEN_DD as DIEM_DEN, L.NGAY_DI,L.NGAY_VE, T.MOTA, BK.SO_LUONG_KHACH from TOUR as T 
             inner join DIADIEM as D on T.ID_DIEMDI = D.ID
             inner join DIADIEM on T.ID_DIEMDEN = DIADIEM.ID
             inner join LICHKHOIHANH as L on L.ID_TOUR = T.ID
+            inner join 
+            (
+                select
+                    L.ID, 
+                    sum(B.SL_KHACH) as SO_LUONG_KHACH 
+                from BOOKING B
+                inner join LICHKHOIHANH L 
+                on B.ID_LICH = L.ID
+                group by L.ID
+            ) as BK 
+            on L.ID = BK.ID
             where
                 T.TEN_TOUR like '%' + @tenTour + '%' and 
                 D.TEN_DD like  '%' + @diemDi + '%' and 
