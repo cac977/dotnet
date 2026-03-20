@@ -348,7 +348,7 @@
             // 
             this.colDiemDen.DataPropertyName = "DIEM_DEN";
             this.colDiemDen.HeaderText = "Điểm đến";
-            this.colDiemDen.MinimumWidth = 8;
+            this.colDiemDen.MinimumWidth = 2;
             this.colDiemDen.Name = "colDiemDen";
             // 
             // colSoNgay
@@ -449,6 +449,7 @@
             this.Controls.Add(this.btnDelete);
             this.Controls.Add(this.btnReset);
             this.Controls.Add(this.dgvTour);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Name = "Form4";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Quản Lý Tour";

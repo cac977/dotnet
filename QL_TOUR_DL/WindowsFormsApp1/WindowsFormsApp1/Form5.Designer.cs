@@ -18,6 +18,11 @@
         private void InitializeComponent()
         {
             this.dgvKhachHang = new System.Windows.Forms.DataGridView();
+            this.colID = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colTenKH = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colSDT = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colEmail = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colDiaChi = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.labelTitle = new System.Windows.Forms.Label();
             this.labelID = new System.Windows.Forms.Label();
             this.txtID = new System.Windows.Forms.TextBox();
@@ -36,11 +41,6 @@
             this.btnUpdate = new System.Windows.Forms.Button();
             this.btnDelete = new System.Windows.Forms.Button();
             this.btnReset = new System.Windows.Forms.Button();
-            this.colID = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colTenKH = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colSDT = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colEmail = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colDiaChi = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dgvKhachHang)).BeginInit();
             this.SuspendLayout();
             // 
@@ -63,6 +63,46 @@
             this.dgvKhachHang.Size = new System.Drawing.Size(1140, 450);
             this.dgvKhachHang.TabIndex = 14;
             this.dgvKhachHang.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvKhachHang_CellClick);
+            // 
+            // colID
+            // 
+            this.colID.DataPropertyName = "ID";
+            this.colID.HeaderText = "CCCD/ID";
+            this.colID.MinimumWidth = 8;
+            this.colID.Name = "colID";
+            this.colID.ReadOnly = true;
+            // 
+            // colTenKH
+            // 
+            this.colTenKH.DataPropertyName = "TEN_KH";
+            this.colTenKH.HeaderText = "Tên khách hàng";
+            this.colTenKH.MinimumWidth = 8;
+            this.colTenKH.Name = "colTenKH";
+            this.colTenKH.ReadOnly = true;
+            // 
+            // colSDT
+            // 
+            this.colSDT.DataPropertyName = "SDT";
+            this.colSDT.HeaderText = "Số điện thoại";
+            this.colSDT.MinimumWidth = 8;
+            this.colSDT.Name = "colSDT";
+            this.colSDT.ReadOnly = true;
+            // 
+            // colEmail
+            // 
+            this.colEmail.DataPropertyName = "EMAIL";
+            this.colEmail.HeaderText = "Email";
+            this.colEmail.MinimumWidth = 8;
+            this.colEmail.Name = "colEmail";
+            this.colEmail.ReadOnly = true;
+            // 
+            // colDiaChi
+            // 
+            this.colDiaChi.DataPropertyName = "DIACHI";
+            this.colDiaChi.HeaderText = "Địa chỉ";
+            this.colDiaChi.MinimumWidth = 8;
+            this.colDiaChi.Name = "colDiaChi";
+            this.colDiaChi.ReadOnly = true;
             // 
             // labelTitle
             // 
@@ -220,46 +260,6 @@
             this.btnReset.UseVisualStyleBackColor = true;
             this.btnReset.Click += new System.EventHandler(this.btnReset_Click);
             // 
-            // colID
-            // 
-            this.colID.DataPropertyName = "ID";
-            this.colID.HeaderText = "CCCD/ID";
-            this.colID.MinimumWidth = 8;
-            this.colID.Name = "colID";
-            this.colID.ReadOnly = true;
-            // 
-            // colTenKH
-            // 
-            this.colTenKH.DataPropertyName = "TEN_KH";
-            this.colTenKH.HeaderText = "Tên khách hàng";
-            this.colTenKH.MinimumWidth = 8;
-            this.colTenKH.Name = "colTenKH";
-            this.colTenKH.ReadOnly = true;
-            // 
-            // colSDT
-            // 
-            this.colSDT.DataPropertyName = "SDT";
-            this.colSDT.HeaderText = "Số điện thoại";
-            this.colSDT.MinimumWidth = 8;
-            this.colSDT.Name = "colSDT";
-            this.colSDT.ReadOnly = true;
-            // 
-            // colEmail
-            // 
-            this.colEmail.DataPropertyName = "EMAIL";
-            this.colEmail.HeaderText = "Email";
-            this.colEmail.MinimumWidth = 8;
-            this.colEmail.Name = "colEmail";
-            this.colEmail.ReadOnly = true;
-            // 
-            // colDiaChi
-            // 
-            this.colDiaChi.DataPropertyName = "DIACHI";
-            this.colDiaChi.HeaderText = "Địa chỉ";
-            this.colDiaChi.MinimumWidth = 8;
-            this.colDiaChi.Name = "colDiaChi";
-            this.colDiaChi.ReadOnly = true;
-            // 
             // Form5
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -284,6 +284,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.labelTitle);
             this.Controls.Add(this.dgvKhachHang);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Name = "Form5";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Quản Lý Khách Hàng";

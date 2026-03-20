@@ -56,9 +56,10 @@
             // 
             this.lblTourFilter.AutoSize = true;
             this.lblTourFilter.Font = new System.Drawing.Font("Microsoft Sans Serif", 32F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTourFilter.Location = new System.Drawing.Point(248, 13);
+            this.lblTourFilter.Location = new System.Drawing.Point(372, 20);
+            this.lblTourFilter.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblTourFilter.Name = "lblTourFilter";
-            this.lblTourFilter.Size = new System.Drawing.Size(520, 51);
+            this.lblTourFilter.Size = new System.Drawing.Size(778, 73);
             this.lblTourFilter.TabIndex = 1;
             this.lblTourFilter.Text = "THỐNG KÊ VÀ BÁO CÁO";
             this.lblTourFilter.Click += new System.EventHandler(this.lblTourFilter_Click);
@@ -66,19 +67,22 @@
             // dtgrReport
             // 
             this.dtgrReport.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dtgrReport.Location = new System.Drawing.Point(55, 347);
+            this.dtgrReport.Location = new System.Drawing.Point(82, 534);
+            this.dtgrReport.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.dtgrReport.Name = "dtgrReport";
             this.dtgrReport.ReadOnly = true;
-            this.dtgrReport.Size = new System.Drawing.Size(890, 230);
+            this.dtgrReport.RowHeadersWidth = 62;
+            this.dtgrReport.Size = new System.Drawing.Size(1335, 354);
             this.dtgrReport.TabIndex = 2;
             // 
             // tourLabel
             // 
             this.tourLabel.AutoSize = true;
             this.tourLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tourLabel.Location = new System.Drawing.Point(79, 16);
+            this.tourLabel.Location = new System.Drawing.Point(118, 25);
+            this.tourLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.tourLabel.Name = "tourLabel";
-            this.tourLabel.Size = new System.Drawing.Size(187, 31);
+            this.tourLabel.Size = new System.Drawing.Size(275, 47);
             this.tourLabel.TabIndex = 3;
             this.tourLabel.Text = "Tổng số tour:";
             this.tourLabel.Click += new System.EventHandler(this.label1_Click);
@@ -87,9 +91,10 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(50, 16);
+            this.label2.Location = new System.Drawing.Point(75, 25);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(270, 31);
+            this.label2.Size = new System.Drawing.Size(400, 47);
             this.label2.TabIndex = 4;
             this.label2.Text = "Tổng doanh thu (đ):";
             // 
@@ -97,9 +102,11 @@
             // 
             this.tourGroupBox.Controls.Add(this.totalTourLabel);
             this.tourGroupBox.Controls.Add(this.tourLabel);
-            this.tourGroupBox.Location = new System.Drawing.Point(117, 191);
+            this.tourGroupBox.Location = new System.Drawing.Point(176, 294);
+            this.tourGroupBox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.tourGroupBox.Name = "tourGroupBox";
-            this.tourGroupBox.Size = new System.Drawing.Size(366, 133);
+            this.tourGroupBox.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.tourGroupBox.Size = new System.Drawing.Size(549, 205);
             this.tourGroupBox.TabIndex = 5;
             this.tourGroupBox.TabStop = false;
             this.tourGroupBox.Text = "Tour";
@@ -108,15 +115,17 @@
             // 
             this.totalTourLabel.AutoSize = true;
             this.totalTourLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.totalTourLabel.Location = new System.Drawing.Point(162, 72);
+            this.totalTourLabel.Location = new System.Drawing.Point(243, 111);
+            this.totalTourLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.totalTourLabel.Name = "totalTourLabel";
-            this.totalTourLabel.Size = new System.Drawing.Size(24, 25);
+            this.totalTourLabel.Size = new System.Drawing.Size(35, 37);
             this.totalTourLabel.TabIndex = 4;
             this.totalTourLabel.Text = "0";
             this.totalTourLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // contextMenuStrip1
             // 
+            this.contextMenuStrip1.ImageScalingSize = new System.Drawing.Size(24, 24);
             this.contextMenuStrip1.Name = "contextMenuStrip1";
             this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
             // 
@@ -124,9 +133,11 @@
             // 
             this.revenueGroupBox.Controls.Add(this.totalRevenueLabel);
             this.revenueGroupBox.Controls.Add(this.label2);
-            this.revenueGroupBox.Location = new System.Drawing.Point(545, 191);
+            this.revenueGroupBox.Location = new System.Drawing.Point(818, 294);
+            this.revenueGroupBox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.revenueGroupBox.Name = "revenueGroupBox";
-            this.revenueGroupBox.Size = new System.Drawing.Size(344, 133);
+            this.revenueGroupBox.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.revenueGroupBox.Size = new System.Drawing.Size(516, 205);
             this.revenueGroupBox.TabIndex = 7;
             this.revenueGroupBox.TabStop = false;
             this.revenueGroupBox.Text = "Doanh thu";
@@ -135,9 +146,10 @@
             // 
             this.totalRevenueLabel.AutoSize = true;
             this.totalRevenueLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.totalRevenueLabel.Location = new System.Drawing.Point(167, 72);
+            this.totalRevenueLabel.Location = new System.Drawing.Point(250, 111);
+            this.totalRevenueLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.totalRevenueLabel.Name = "totalRevenueLabel";
-            this.totalRevenueLabel.Size = new System.Drawing.Size(24, 25);
+            this.totalRevenueLabel.Size = new System.Drawing.Size(35, 37);
             this.totalRevenueLabel.TabIndex = 8;
             this.totalRevenueLabel.Text = "0";
             this.totalRevenueLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -146,9 +158,10 @@
             // 
             this.reportFilterLabel.AutoSize = true;
             this.reportFilterLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.reportFilterLabel.Location = new System.Drawing.Point(56, 108);
+            this.reportFilterLabel.Location = new System.Drawing.Point(84, 166);
+            this.reportFilterLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.reportFilterLabel.Name = "reportFilterLabel";
-            this.reportFilterLabel.Size = new System.Drawing.Size(246, 31);
+            this.reportFilterLabel.Size = new System.Drawing.Size(364, 47);
             this.reportFilterLabel.TabIndex = 8;
             this.reportFilterLabel.Text = "Lọc báo cáo theo:";
             this.reportFilterLabel.Click += new System.EventHandler(this.label1_Click_1);
@@ -157,9 +170,10 @@
             // 
             this.radToday.AutoSize = true;
             this.radToday.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radToday.Location = new System.Drawing.Point(23, 31);
+            this.radToday.Location = new System.Drawing.Point(34, 48);
+            this.radToday.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.radToday.Name = "radToday";
-            this.radToday.Size = new System.Drawing.Size(97, 24);
+            this.radToday.Size = new System.Drawing.Size(139, 33);
             this.radToday.TabIndex = 9;
             this.radToday.TabStop = true;
             this.radToday.Text = "Hôm nay";
@@ -172,9 +186,11 @@
             this.filterGroupBox.Controls.Add(this.radYear);
             this.filterGroupBox.Controls.Add(this.radWeek);
             this.filterGroupBox.Controls.Add(this.radToday);
-            this.filterGroupBox.Location = new System.Drawing.Point(308, 84);
+            this.filterGroupBox.Location = new System.Drawing.Point(462, 129);
+            this.filterGroupBox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.filterGroupBox.Name = "filterGroupBox";
-            this.filterGroupBox.Size = new System.Drawing.Size(637, 82);
+            this.filterGroupBox.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.filterGroupBox.Size = new System.Drawing.Size(956, 126);
             this.filterGroupBox.TabIndex = 10;
             this.filterGroupBox.TabStop = false;
             this.filterGroupBox.Text = "Bộ lọc";
@@ -183,9 +199,10 @@
             // 
             this.radMonth.AutoSize = true;
             this.radMonth.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radMonth.Location = new System.Drawing.Point(279, 32);
+            this.radMonth.Location = new System.Drawing.Point(418, 49);
+            this.radMonth.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.radMonth.Name = "radMonth";
-            this.radMonth.Size = new System.Drawing.Size(110, 24);
+            this.radMonth.Size = new System.Drawing.Size(159, 33);
             this.radMonth.TabIndex = 13;
             this.radMonth.TabStop = true;
             this.radMonth.Text = "Tháng này";
@@ -196,9 +213,10 @@
             // 
             this.radYear.AutoSize = true;
             this.radYear.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radYear.Location = new System.Drawing.Point(422, 32);
+            this.radYear.Location = new System.Drawing.Point(633, 49);
+            this.radYear.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.radYear.Name = "radYear";
-            this.radYear.Size = new System.Drawing.Size(96, 24);
+            this.radYear.Size = new System.Drawing.Size(139, 33);
             this.radYear.TabIndex = 12;
             this.radYear.TabStop = true;
             this.radYear.Text = "Năm nay";
@@ -209,9 +227,10 @@
             // 
             this.radWeek.AutoSize = true;
             this.radWeek.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radWeek.Location = new System.Drawing.Point(147, 32);
+            this.radWeek.Location = new System.Drawing.Point(220, 49);
+            this.radWeek.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.radWeek.Name = "radWeek";
-            this.radWeek.Size = new System.Drawing.Size(100, 24);
+            this.radWeek.Size = new System.Drawing.Size(144, 33);
             this.radWeek.TabIndex = 10;
             this.radWeek.TabStop = true;
             this.radWeek.Text = "Tuần này";
@@ -222,22 +241,25 @@
             // 
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel1.Controls.Add(this.lblTourFilter);
-            this.panel1.Location = new System.Drawing.Point(-9, 0);
+            this.panel1.Location = new System.Drawing.Point(-14, 0);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1023, 71);
+            this.panel1.Size = new System.Drawing.Size(1534, 108);
             this.panel1.TabIndex = 11;
             // 
             // Form3
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1007, 612);
+            this.ClientSize = new System.Drawing.Size(1510, 942);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.filterGroupBox);
             this.Controls.Add(this.reportFilterLabel);
             this.Controls.Add(this.revenueGroupBox);
             this.Controls.Add(this.tourGroupBox);
             this.Controls.Add(this.dtgrReport);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "Form3";
             this.Text = "Form3";
             this.Load += new System.EventHandler(this.Form3_Load);
