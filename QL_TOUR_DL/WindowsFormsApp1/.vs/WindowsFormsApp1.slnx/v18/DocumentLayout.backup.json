@@ -134,7 +134,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -151,19 +151,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ucPayment.cs",
-              "DocumentMoniker": "C:\\Users\\tdhuy\\Documents\\GitHub\\dotnet\\QL_TOUR_DL\\WindowsFormsApp1\\WindowsFormsApp1\\ucPayment.cs",
-              "RelativeDocumentMoniker": "WindowsFormsApp1\\ucPayment.cs",
-              "ToolTip": "C:\\Users\\tdhuy\\Documents\\GitHub\\dotnet\\QL_TOUR_DL\\WindowsFormsApp1\\WindowsFormsApp1\\ucPayment.cs",
-              "RelativeToolTip": "WindowsFormsApp1\\ucPayment.cs",
-              "ViewState": "AgIAAFoAAAAAAAAAAAAiwHkAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-19T02:36:02.042Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -189,6 +176,19 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-19T04:06:45.734Z",
               "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ucPayment.cs",
+              "DocumentMoniker": "C:\\Users\\tdhuy\\Documents\\GitHub\\dotnet\\QL_TOUR_DL\\WindowsFormsApp1\\WindowsFormsApp1\\ucPayment.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\ucPayment.cs",
+              "ToolTip": "C:\\Users\\tdhuy\\Documents\\GitHub\\dotnet\\QL_TOUR_DL\\WindowsFormsApp1\\WindowsFormsApp1\\ucPayment.cs",
+              "RelativeToolTip": "WindowsFormsApp1\\ucPayment.cs",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAiwHkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T02:36:02.042Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
