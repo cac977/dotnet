@@ -203,3 +203,4 @@ C:\Users\Windows 10\source\repos\dotnet\QL_TOUR_DL\WindowsFormsApp1\WindowsForms
 C:\Users\Windows 10\source\repos\dotnet\QL_TOUR_DL\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsF.A1EEDF9B.Up2Date
 C:\Users\Windows 10\source\repos\dotnet\QL_TOUR_DL\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
 C:\Users\Windows 10\source\repos\dotnet\QL_TOUR_DL\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\tdhuy\Documents\GitHub\dotnet\QL_TOUR_DL\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form5.resources
