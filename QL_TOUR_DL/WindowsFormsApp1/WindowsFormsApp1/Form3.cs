@@ -61,7 +61,7 @@ namespace WindowsFormsApp1
                     JOIN TOUR T ON L.ID_TOUR = T.ID
                     WHERE {condition};";
 
-                //
+                // create command
                 SqlCommand cmd = new SqlCommand(combinedSql, connection);
 
                 //create connection
@@ -86,6 +86,10 @@ namespace WindowsFormsApp1
                             DataTable dt = new DataTable();
                             dt.Load(reader);
                             dtgrReport.DataSource = dt;
+
+                            // format total revenue column, N0: space and 0 decimal places, align right
+                            dtgrReport.Columns["TONG_TIEN"].DefaultCellStyle.Format = "N0";
+                            dtgrReport.Columns["TONG_TIEN"].DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleRight;
                         }
                     }
 
@@ -95,6 +99,9 @@ namespace WindowsFormsApp1
                     MessageBox.Show("Lỗi cập nhật dữ liệu: " + ex.Message);
                     return;
                 }
+
+                // set grid view to fill the form
+                dtgrReport.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             }
         }
 
